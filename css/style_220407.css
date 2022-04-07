@@ -273,7 +273,7 @@ h2{
     background-color: #ece6d9;
 }
 .back_ground_color_dark_green{
-    background-color: green;
+    background-color: #6a9041;
 }
 .back_ground_color_dark_blue{
     background-color: #204c66;
@@ -492,7 +492,7 @@ header{
 }
 .inquiry_2_tel img{
     width: 40px;
-    margin-right: 0.5rem;
+    margin-right: 40px;
     margin-top: 20px;
     object-fit: contain;
     vertical-align: top;
@@ -543,6 +543,35 @@ header{
 #appearance{
     padding: 1rem 0;
 }
+.appearance_title{
+    position: relative;
+    height: 60px; 
+    line-height: 60px; 
+}
+.appearance_title:before,
+.appearance_title:after {
+        position: absolute;
+        content: "";
+        width: 0px;
+        height: 0px;
+        z-index: 1;
+}
+ 
+.appearance_title:before {
+        top: 0;
+        left: 0;
+        border-width: 30px 0px 30px 25px;
+        border-color: transparent transparent transparent #f5e9ec;
+        border-style: solid;
+}
+ 
+.appearance_title:after {
+        top: 0;
+        right: 0;
+        border-width: 30px 25px 30px 0px;
+        border-color: transparent #f5e9ec transparent transparent;
+        border-style: solid;
+}
 .appearance_contents{
     margin: 0.2rem 0;
 }
@@ -589,6 +618,17 @@ header{
 /* 悩み */
 #worries{
     padding: 20px 0 0 0;
+    position: relative;
+}
+#worries::before{
+    content: "";
+    position: absolute;
+    border: 120px solid transparent;
+    border-top: 60px solid #e4ebee;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
 }
 #worries .back_ground_color_white{
     padding: 10px 30px 30px 20px;
@@ -612,6 +652,7 @@ header{
 #consultation{
     position: relative;
     right: 0;
+    padding-top: 60px;
 }
 .consultation_img{
     width: 20%;
@@ -635,6 +676,21 @@ header{
 }
 
 /* 理由 */
+#reason .back_ground_color_dark_green{
+    position: relative;
+    height: 100px;
+}
+#reason .back_ground_color_dark_green::before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    border-top: 70px solid #6a9041;
+    border-left: 49.5vw solid transparent;
+    border-right: 49.5vw solid transparent;
+}
 #reason h1{
     margin-top: 0.5rem;
 }
@@ -661,6 +717,7 @@ header{
 .reason_parent{
     position: relative;
     z-index: 0;
+    padding-top: 70px;
 }
 .reason_parent > img{
     object-fit: cover;
@@ -750,6 +807,24 @@ header{
 }
 
 /* エリア */
+#area .back_ground_color_dark_blue{
+    position: relative;
+    height: 100px;
+}
+#area .back_ground_color_dark_blue::before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    border-top: 50px solid #204c66;
+    border-left: 49.5vw solid transparent;
+    border-right: 49.5vw solid transparent;
+}
+#area .max_width_920{
+    padding-top: 50px;
+}
 .area_top{
     margin: 30px 0 0 50px;
 }
@@ -760,8 +835,6 @@ header{
     width: 100%;
     height: 520px;
     margin: 30px 0 20px 0;
-    /* filter:alpha(opacity=70); 
-    opacity:0.7 */
 }
 .area_bottom{
     padding: 20px 0 50px 0;
