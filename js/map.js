@@ -15,7 +15,6 @@
 
     var ctaLayer = new google.maps.KmlLayer({
         url: 'http://noland.sakura.ne.jp/ibaraki/kml/ibaraki.kml',
-        map: map
     });
     ctaLayer.setMap(map);
 // }
