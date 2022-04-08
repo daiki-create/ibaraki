@@ -25,6 +25,7 @@
     /* header */
     .header_green{
         font-size: 1.4rem !important;
+        padding: 0.5rem 0;
     }
     .header_green p{
         margin-left: 0.8rem;
