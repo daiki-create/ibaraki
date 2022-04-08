@@ -9,6 +9,9 @@
 
         <!-- my style -->
         <link rel="stylesheet" href="css/style_220407.css">
+        <link rel="stylesheet" href="css/responsive_1150_960.css">
+        <link rel="stylesheet" href="css/responsive_960_.css">
+        <link rel="stylesheet" href="css/responsive_375.css">
 
         <!-- google font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,23 +26,26 @@
             <div class="header_green back_ground_color_green font_white">
                 <div class="fs_14">
                     <p>
-                        【茨城全域に対応】脳梗塞や脳出血後遺症に強い訪問リハビリ・マッサージ
+                        【茨城全域に対応】<br class="visible_960">脳梗塞や脳出血後遺症に強い訪問リハビリ・マッサージ
                     </p>
                 </div>
             </div>
             <div class="header_white back_ground_color_white m_plus_rounded_700">
                 <div class="p_0">
                     <div class="header_white_left font_dark_green">
-                        <div>
-                            <span>
+                        <div class="">
+                            <img class="header_white_left_logo visible_960" src="img/logo_1150.png" alt="ロゴ">
+                        </div>
+                        <div class="hidden_960">
+                            <span class="hidden_960">
                                 <img class="header_white_left_logo" src="img/logo.png" alt="ロゴ">
                             </span>
-                            <span class="fs_21">
+                            <span class="fs_21 hidden_1150">
                                 脳梗塞リハビリ専門
                             </span>
                         </div>
-                        <div class="fs_24_8571">
-                            <p>いばらき訪問リハビリセンター</p>
+                        <div class="fs_24_8571 white_space_nowrap">
+                            <p>いばらき訪問<br class="visible_1150">リハビリセンター</p>
                         </div>
                     </div>
                     <div class="header_white_center">
@@ -60,7 +66,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="header_white_right">
+                    <div class="header_white_right hidden_960">
                         <div class="d_flex">
                             <div class="d_flex">
                                 <img src="img/tel.png" alt="電話">
@@ -72,9 +78,9 @@
                         <div class="text_align_right">
                             <p class="header_time fs_18">営業時間　9:00～19:00(年中無休)</p>
                         </div>
-                        <div class="back_ground_color_green py_2">
+                        <button class="back_ground_color_green py_2 m_plus_rounded_700" onclick="location.href='#contact'">
                             <p class="font_yellow text_align_center fs_18">WEBからのお問い合わせはこちら</p>
-                        </div>
+                        </button>
                         <div class="text_align_center fs_16">
                             <p>通話無料・メールは24時間受付中</p>
                         </div>
@@ -85,8 +91,8 @@
         <main>
 
             <div id="top">
-                <div class="top_red back_ground_color_red font_yellow text_align_center white_space_nowrap py_2 m_plus_rounded_700">
-                    <p class="fs_30_13">脳梗塞や脳出血後遺症で御悩みの方の99.3%が改善を実感<span class="fs_20_09">(※1)</span></p>
+                <div class="top_red back_ground_color_red font_yellow text_align_center py_2 m_plus_rounded_700">
+                    <p class="fs_30_13">脳梗塞や脳出血後遺症で御悩みの方の<br class="visible_960">99.3%が改善を実感<span class="fs_20_09">(※1)</span></p>
                 </div>
 
                 <div>
@@ -100,20 +106,24 @@
                                     <img src="img/top_2.jpg" alt="介護状況">
                                 </div>
                             </div>
+                            <div class="main_imgBox visible_960">
+                                <div class="main_img" style="background-image: url('img/top_1.jpg')"></div>
+                                <div class="main_img" style="background-image: url('img/top_2.jpg')"></div>
+                            </div>
                         </div>
                         <div class="max_width_1150 font_green back_ground_color_clear_white top_img_child p_10">
                             <p class="fs_34_98">
-                                健康保険を使って1回300～400円程度<span class="fs_28_25">（1割負担の場合・交通費込み）</span>で<br>
-                                訪問リハビリを受けられるのをご存知ですか？<br>
+                                健康保険を使って1回300～400円程度<br class="visible_1150"><span class="fs_28_25">（1割負担の場合・交通費込み）</span>で<br>
+                                訪問リハビリを受けられるのをご存知ですか？<br class="hidden_1150">
                                 ※障がい者1級・2級の方は無料です
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <div class="back_ground_color_red pt_10 m_plus_rounded_700">
+                <div class="top_red_2 back_ground_color_red pt_10 m_plus_rounded_700">
                     <div class="text_align_center font_yellow">
-                        <p class="fs_41_48">「立つのがラクになった」「痛みが軽くなった」</p>
+                        <p class="fs_41_48">「立つのがラクになった」<br class="visible_960">「痛みが軽くなった」</p>
                     </div>
                     <div class="text_align_center font_white">
                         <p class="fs_35_02">という声をたくさん頂いています</p>
@@ -123,9 +133,9 @@
                     </div>
                 </div>
 
-                <div class="back_ground_color_light_pink">
+                <div id="top_btn" class="back_ground_color_light_pink hidden_960">
                     <div class="max_width_1150 d_flex">
-                        <button class="back_ground_color_red font_white_2 inquiry_btn inquiry_btn_left p_10 text_align_center">
+                        <button class="back_ground_color_red font_white_2 inquiry_btn inquiry_btn_left p_10 text_align_center" onclick="location.href='#contact'">
                             <div class="">
                                 <span>
                                     <img src="img/mail.png" alt="">
@@ -135,7 +145,7 @@
                                  </span>
                             </div>
                        </button>
-                       <button class="back_ground_color_green font_white_2 inquiry_btn inquiry_btn_right p_10 text_align_center">
+                       <button class="back_ground_color_green font_white_2 inquiry_btn inquiry_btn_right p_10 text_align_center" onclick="location.href='tel:0120-725-601'">
                            <div>
                                <div>
                                     <p class="fs_30_37 noto_sans_jp_500">無料で電話相談する</p>
@@ -175,7 +185,7 @@
                 </div>
             </div>
 
-            <div id="inquiry_2" class="max_width_920">
+            <div id="inquiry_2" class="max_width_920 hidden_960">
                 <div class="font_red py_5">
                     <div class="d_flex center" style="width: 90%;">
                         <span class="fs_44" style="margin-right: 1rem;">
@@ -216,7 +226,7 @@
                         <img src="img/back_1.png" alt="女性">
                     </div>
 
-                    <button class="inquiry_2_bottom_child back_ground_color_red font_white p_5 d_flex text_align_center">
+                    <button class="inquiry_2_bottom_child back_ground_color_red font_white p_5 d_flex text_align_center" onclick="location.href='#contact'">
                         <div style="margin: auto;">
                             <span>
                                 <img src="img/mail.png" alt="">
@@ -232,8 +242,8 @@
             <!-- 3つの特徴 -->
             <div id="feature">
                 <div class="back_ground_color_green font_white text_align_center py_5">
-                    <p class="fs_28">脳梗塞や脳出血後遺症に強い訪問リハビリ・マッサージ専門店</p>
-                    <p class="fs_40">いばらき訪問リハビリセンターの３つの特徴</p>
+                    <p class="fs_28">脳梗塞や脳出血後遺症に強い<br class="visible_960">訪問リハビリ・マッサージ専門店</p>
+                    <p class="fs_40">いばらき訪問リハビリセンターの<br class="visible_960"><span>３つの特徴</span></p>
                 </div>
                 <div class="max_width_920 py_15">
                     <div class="feature_contents my_10">
@@ -242,11 +252,13 @@
                         </div>
                         <div class="feature_contents_right">
                             <p class="font_green fs_28"><span class="marker_1">2万人以上のリハビリ実績。</span></p>
-                            <span class="font_green">■</span>
-                            <span class="fs_23">
-                                「立つのがラクになった」など<span class="marker_1">93.3％の利用者様が改善を実感</span>（※１）。<br>
-                                マッサージや鍼灸もおこないますので、「痛みやしびれが軽くなった」というお声も頂きます。
-                            </span>
+                            <div class="fs_23 d_flex">
+                                <div class="font_green">■</div>
+                                <div>
+                                    「立つのがラクになった」など<span class="marker_1">93.3％の利用者様が改善を実感</span>（※１）。<br>
+                                    マッサージや鍼灸もおこないますので、「痛みやしびれが軽くなった」というお声も頂きます。
+                                </div>
+                            </div>
                             <div class="text_align_right fs_15">
                                 <p>
                                     ※１　 令和1年5月～令和2年3月にリハビリを受けられた方が対象です
@@ -261,13 +273,15 @@
                         </div>
                         <div class="feature_contents_right">
                             <p class="font_green fs_28">
-                                健康保険が適用される公的な医療サービスだから1回の<br>
-                                リハビリが300〜400円（１割負担の場合・交通費込）。
+                                健康保険が適用される公的な医療サービスだから1回の<br class="hidden_960">
+                                リハビリが300〜400円<br class="visible_960">（１割負担の場合・交通費込）。
                             </p>
-                            <span class="font_green">■</span>
-                            <span class="fs_23">
-                                「保険適用外の自費リハビリは高くて受けられない」という方も安心の医療サービスです。
-                            </span>
+                            <div class="fs_23 d_flex">
+                                <div class="font_green">■</div>
+                                <div>
+                                    「保険適用外の自費リハビリは高くて受けられない」という方も安心の医療サービスです。
+                                </div>
+                            </div>
                             <div class="text_align_right fs_15">
                                 <p>
                                     （※障がい者1級・2級の方は無料で受けられます）
@@ -281,11 +295,13 @@
                             <img src="img/point_3.png" alt="">
                         </div>
                         <div class="feature_contents_right">
-                            <p class="font_green fs_28">全員が機能訓練指導員などのリハビリに強い国家資格者です。</p>
-                            <span class="font_green">■</span>
-                            <span class="fs_23">
-                                女性スタッフも多数在籍していますので「男性が来るのは不安・・・」というお客様も安心です。
-                            </span>
+                            <p class="font_green fs_28">全員が機能訓練指導員などの<br class="visible_960">リハビリに強い国家資格者です。</p>
+                            <div class="fs_23 d_flex">
+                                <div class="font_green">■</div>
+                                <div>
+                                    女性スタッフも多数在籍していますので「男性が来るのは不安・・・」というお客様も安心です。
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -295,7 +311,7 @@
             <div id="appearance" class="back_ground_color_light_pink">
                 <div class="max_width_920">
                     <div class="appearance_title back_ground_color_red text_align_center font_white_2">
-                        <p class="fs_36">リハビリ・マッサージの様子を動画でご覧ください!</p>
+                        <p class="fs_36">リハビリ・マッサージの様子を<br class="visible_960">動画でご覧ください!</p>
                     </div>
                     <div class="appearance_contents white_space_nowrap">
                         <div class="appearance_contents_left">
@@ -311,17 +327,20 @@
             <!-- 声 -->
             <div id="voice" class="back_ground_color_light_blue_3">
                 <div class="back_ground_color_green text_align_center py_10">
-                    <p class="font_white_2 fs_24"> ＼ ＼ 「もっとリハビリしたい」「1人で外出できるようになった」／／</p>
-                    <p class="font_white fs_31">いばらき訪問リハビリセンターのリハビリやマッサージを受けられた</p>
-                    <p class="font_yellow fs_45_9">ご利用者様のお喜びの声</p>
+                    <p class="font_white_2 fs_24"><span>＼＼</span><span class="hidden_960_inline">「もっとリハビリしたい」</span><span>「1人で外出できるようになった」／／</span></p>
+                    <p class="font_white fs_31">いばらき訪問リハビリセンターの<br class="visible_960">リハビリやマッサージを受けられた</p>
+                    <p class="font_yellow fs_45_9">ご利用者様<span class="fs_36">の</span>お喜びの声</p>
                 </div>
                 <div class="max_width_920 py_10">
                     <div class="voice_contents back_ground_color_white">
+                        <div class="visible_640">
+                            <p class="font_green fs_28">1人で立てるようになりました。</p>
+                        </div>
                         <div class="voice_contents_left">
                             <img src="img/voice1.png" alt="">
                         </div>
                         <div class="voice_contents_right">
-                            <p class="font_green fs_28">1人で立てるようになりました。</p>
+                            <p class="font_green fs_28 hidden_640">1人で立てるようになりました。</p>
                             <p class="text_align_right fs_23">辻田淳一様　72歳　脳梗塞後遺症</p>
                             <p class="font_green fs_22">リハビリ前</p>
                             <p class="fs_22">老人ホームでは、リハビリができず運動機能が落ちていっていました。</p>
@@ -335,11 +354,14 @@
                     <p class="text_align_right fs_14">※個人の感想であり効果・効能を保証するものではありません。</p>
 
                     <div class="voice_contents back_ground_color_white mt_10">
+                    <div class="visible_640">
+                            <p class="font_green fs_28">社会復帰することができました。</p>
+                        </div>
                         <div class="voice_contents_left">
                             <img src="img/voice2.png" alt="">
                         </div>
                         <div class="voice_contents_right">
-                            <p class="font_green fs_28">社会復帰することができました。</p>
+                            <p class="font_green fs_28 hidden_640">社会復帰することができました。</p>
                             <p class="text_align_right fs_23">清水直樹様　56歳　脳出血後遺症</p>
                             <p class="font_green fs_22">リハビリ前</p>
                             <p class="fs_22">障がい者2級で会社には戻れないと思っていました</p>
@@ -353,11 +375,14 @@
                     <p class="text_align_right fs_14">※個人の感想であり効果・効能を保証するものではありません。</p>
 
                     <div class="voice_contents back_ground_color_white mt_10">
+                    <div class="visible_640">
+                            <p class="font_green fs_28">痛みやしびれが軽くなりました</p>
+                        </div>
                         <div class="voice_contents_left">
                             <img src="img/voice3.png" alt="">
                         </div>
                         <div class="voice_contents_right">
-                            <p class="font_green fs_28">痛みやしびれが軽くなりました</p>
+                            <p class="font_green fs_28 hidden_640">痛みやしびれが軽くなりました</p>
                             <p class="text_align_right fs_23">齋藤ひて様　84歳　脊柱管狭窄症、坐骨神経痛</p>
                             <p class="font_green fs_22">リハビリ前</p>
                             <p class="fs_22">脊柱管狭窄症と脳梗塞の後遺症で痛みやしびれがひどかったです。</p>
@@ -370,11 +395,14 @@
                     <p class="text_align_right fs_14">※個人の感想であり効果・効能を保証するものではありません。</p>
 
                     <div class="voice_contents back_ground_color_white mt_10">
+                    <div class="visible_640">
+                            <p class="font_green fs_28">家族の負担が減りました</p>
+                        </div>
                         <div class="voice_contents_left">
                             <img src="img/voice4.png" alt="">
                         </div>
                         <div class="voice_contents_right">
-                            <p class="font_green fs_28">家族の負担が減りました</p>
+                            <p class="font_green fs_28 hidden_640">家族の負担が減りました</p>
                             <p class="text_align_right fs_23">上野隆二様　81歳　パーキンソン病、脳梗塞</p>
                             <p class="font_green fs_22">リハビリ前</p>
                             <p class="fs_22">体が思うように動かず、家族に負担をかけていました</p>
@@ -390,55 +418,58 @@
 
             <!-- 悩み -->
             <div id="worries" class="back_ground_color_light_blue_1">
+                <div class="back_ground_color_dark_blue font_white_2 text_align_center py_2 visible_960">
+                    <p class="fs_36">こんなお悩みをお持ちの方へ</p>
+                </div>
                 <div class="max_width_920">
-                    <div class="back_ground_color_dark_blue font_white_2 text_align_center py_2">
+                    <div class="back_ground_color_dark_blue font_white_2 text_align_center py_2 hidden_960">
                         <p class="fs_36">こんなお悩みをお持ちの方へ</p>
                     </div>
                     <div class="back_ground_color_white">
-                        <ul class="white_space_nowrap">
-                            <li class="font_dark_blue">
-                                <span>
+                        <ul class="">
+                            <li class="font_dark_blue d_flex">
+                                <div>
                                     <img src="img/check.png" alt="">
-                                </span>
-                                <span class="fs_28">
+                                </div>
+                                <div class="fs_28">
                                     もっと、リハビリをしたい
-                                </span>
+                                </div>
                             </li>
 
-                            <li class="font_dark_blue">
-                                <span>
+                            <li class="font_dark_blue d_flex">
+                                <div>
                                     <img src="img/check.png" alt="">
-                                </span>
-                                <span class="fs_28">
+                                </div>
+                                <div class="fs_28">
                                     保険が使えないリハビリは高額で受けられない  
-                                </span>
+                                </div>
                             </li>
 
-                            <li class="font_dark_blue">
-                                <span>
+                            <li class="font_dark_blue d_flex">
+                                <div>
                                     <img src="img/check.png" alt="">
-                                </span>
-                                <span class="fs_28">
+                                </div>
+                                <div class="fs_28">
                                     介護保険の枠が一杯で、週2回しかリハビリが受けられない
-                                </span>
+                                </div>
                             </li>
 
-                            <li class="font_dark_blue">
-                                <span>
+                            <li class="font_dark_blue d_flex">
+                                <div>
                                     <img src="img/check.png" alt="">
-                                </span>
-                                <span class="fs_28">
+                                </div>
+                                <div class="fs_28">
                                     1人でできる事が少なくなってきている
-                                </span>
+                                </div>
                             </li>
 
-                            <li class="font_dark_blue">
-                                <span>
+                            <li class="font_dark_blue d_flex">
+                                <div>
                                     <img src="img/check.png" alt="">
-                                </span>
-                                <span class="fs_28">
+                                </div>
+                                <div class="fs_28">
                                     病院を退院して、これからどうしていいかわからない
-                                </span>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -453,14 +484,14 @@
                 <div class="consultation_img">
                     <img src="img/back_2.png" alt="">
                 </div>
-                <div class="consultation_body font_dark_blue">
-                    <p class="marker_1 fs_32"><span>1人で悩まず、いばらき訪問リハビリセンターにご相談ください。</span></p>
+                <div class="consultation_body max_width_920 font_dark_blue">
+                    <p class="fs_32"><span class="marker_1">1人で悩まず、</span><br class="visible_960"><span class="marker_1">いばらき訪問リハビリセンターにご相談ください。</span></p>
                     <p class="fs_21">
                         当センターには、病院の先生から「これ以上良くならない」「歩くことは難しいのではないか？」と<br>
                         言われたケースでも、毎日リハビリを頑張る事によって社会復帰できたり杖をついて歩けるようになったケースがあります。<br>
                         <br>
-                        「病院を退院して、これからどうしたらいいのかわからない」<br>
-                        「今の自分の状態からでも本当に良くなるのだろうか」という方もお気軽にご相談ください。                     
+                        「病院を退院して、これから<br class="visible_960">どうしたらいいのかわからない」<br>
+                        「今の自分の状態からでも本当に<br class="visible_960">良くなるのだろうか」<br>という方もお気軽にご相談ください。                     
                     </p>
                 </div>
             </div>
@@ -468,31 +499,40 @@
             <!-- 理由 -->
             <div id="reason" class="back_ground_color_gray">
                 <div class="back_ground_color_dark_green text_align_center pt_10">
-                    <h2 class="font_white">
-                        <span class="fs_28">リハビリ実績2万件以上。93.3％の利用者様が改善を実感した</span>
+                    <div class="font_white">
+                        <span class="fs_28">リハビリ実績2万件以上。<br class="visible_960">93.3％の利用者様が改善を実感した</span>
                         <span class="fs_18">（※1）</span>
                         <span class="fs_28">。</span>
-                    </h2>
-                    <div class="font_yellow"><span class="fs_36">いばらき訪問リハビリセンターが選ばれる</span><span class="fs_47_23">5</span><span class="fs_36">つの</span><span class="fs_47_23">理由</span></div>
+                    </div>
+                    <div class="font_yellow"><span class="fs_36">いばらき訪問リハビリセンターが<br class="visible_960"><span class="fs_36">選ばれる</span><span class="fs_47_23">5</span><span class="fs_36">つの</span><span class="fs_47_23">理由</span></div>
                 </div>
                 <div class="reason_parent">
                     <div class="max_width_920 reason_contents back_ground_color_white">
-                        <div class="reason_left">
+                        <div class="reason_left hidden_960">
                             <img src="img/reason_1.png" alt="">
                         </div>
                         <div class="reason_right">
+                            <div class="reason_title_960 visible_960">
+                                <div><div><span>理由</span><span>1</span></div></div>
+                            </div>
                             <p class="fs_26">
                                 <span class="marker_1">2万人以上のリハビリ実績</span>から得られた豊富な経験。<br>
                                 ご利用者様の状況に応じたリハビリをマンツーマンで行います。<br>
                                 <span class="marker_1">93.3％の方が「立るのがラクになった」「歩けるようになった」</span>などの効果を実感しています（※１)
                             </p>
+                            <div class="max_width_920 text_align_right py_10 visible_960">
+                                <p class="fs_14">※1 令和1年5月～令和2年3月にリハビリを受けられた方が対象です</p>
+                            </div>
                         </div>
                     </div>
                     <div class="max_width_920 reason_contents back_ground_color_white">
-                        <div class="reason_left">
+                        <div class="reason_left hidden_960">
                             <img src="img/reason_2.png" alt="">
                         </div>
                         <div class="reason_right">
+                            <div class="reason_title_960 visible_960">
+                                <div><div><span>理由</span><span>2</span></div></div>
+                            </div>
                             <p class="fs_26">
                                 保険が使えない自費のリハビリと異なり、<span class="marker_1">健康保険適用の公的な医療サービス</span>だから安心の低料金。<br>
                                 1回のリハビリが<span class="font_red">300〜400円</span>（１割負担の場合・交通費込）で受けられます。（※障がい者1級、2級の方は<span class="font_red">無料</span>です）
@@ -500,10 +540,13 @@
                         </div>
                     </div>
                     <div class="max_width_920 reason_contents back_ground_color_white">
-                        <div class="reason_left">
+                        <div class="reason_left hidden_960">
                             <img src="img/reason_3.png" alt="">
                         </div>
                         <div class="reason_right">
+                            <div class="reason_title_960 visible_960">
+                                <div><div><span>理由</span><span>3</span></div></div>
+                            </div>
                             <p class="fs_26">
                                 <span class="marker_1">茨城県にお住まいの方への訪問リハビリ専門の事業所</span>なので、アフターフォローも万全。<br>
                                 「担当スタッフを変えてほしい」などの要望も可能です。<br>
@@ -512,10 +555,13 @@
                         </div>
                     </div>
                     <div class="max_width_920 reason_contents back_ground_color_white">
-                        <div class="reason_left">
+                        <div class="reason_left hidden_960">
                             <img src="img/reason_4.png" alt="">
                         </div>
                         <div class="reason_right">
+                            <div class="reason_title_960 visible_960">
+                                <div><div><span>理由</span><span>4</span></div></div>
+                            </div>
                             <p class="fs_26">
                                 <span class="marker_1">介護保険を一切使わない</span>のでデイサービスなどを減らさずに、<br>
                                 リハビリやマッサージを受ける事ができます。<br>
@@ -524,10 +570,13 @@
                         </div>
                     </div>
                     <div class="max_width_920 reason_contents back_ground_color_white">
-                        <div class="reason_left">
+                        <div class="reason_left hidden_960">
                             <img src="img/reason_5.png" alt="">
                         </div>
                         <div class="reason_right">
+                            <div class="reason_title_960 visible_960">
+                                <div><div><span>理由</span><span>5</span></div></div>
+                            </div>
                             <p class="fs_26">
                                 <span class="marker_1">リハビリスタッフ全員が国家資格保持者です。</span><br>
                                 また当センターには機能訓練指導員のマッサージ師、鍼灸師、<br>
@@ -536,7 +585,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="max_width_920 text_align_right py_10">
+                    <div class="max_width_920 text_align_right py_10 hidden_960">
                         <p class="fs_14">※1 令和1年5月～令和2年3月にリハビリを受けられた方が対象です</p>
                     </div>
                     <img class="reason_img_1" src="img/circle_1.jpg" alt="">
@@ -548,7 +597,7 @@
 
             <!-- エリア -->
             <div id="area" class="back_ground_color_light_blue_1">
-                <div class="back_ground_color_dark_blue font_white text_align_center py_10 fs_42">
+                <div class="back_ground_color_dark_blue font_white text_align_center pt_10 fs_42">
                     <p>訪問リハビリ・マッサージは<br>
                         どこまで来てくれるの？
                     </p>
@@ -558,8 +607,8 @@
                         <p class="area_top_dot fs_38">
                             ・・・・・
                         </p>
-                        <p class="fs_38">
-                            <span>茨城県全域</span><span>に</span><span>対応可能</span><span>です。</span>
+                        <p>
+                            <span class="fs_38">茨城県全域</span><span class="fs_32">に</span><span class="fs_38">対応可能</span><span class="fs_32">です。</span>
                         </p>
                     </div>
                     
@@ -567,8 +616,8 @@
 
                     <div class="area_bottom">
                         <p class="fs_30_13">
-                            「リハビリを受けたい」「マッサージを受けたい」と思っている方の<br>
-                            家や施設まで訪問してリハビリを行います。
+                            「リハビリを受けたい」<br class="visible_960">「マッサージを受けたい」<br class="visible_960">と思っている方の<br class="hidden_960">
+                            家や施設まで訪問して<br class="visible_960">リハビリを行います。
                         </p>
                     </div>
                 </div>
@@ -581,10 +630,11 @@
                         <p class="fs_26">
                             当センターの訪問リハビリ・マッサージは健康保険が適用されますので、<br>
                             1回30分程度のリハビリやマッサージが<br>
-                            <span class="font_red fs_36">300〜400円（１割負担の場合・交通費込）</span>で<br>
-                            受ける事が可能です。（※障がい者1級、2級の方は<span class="font_red">無料</span>です）<br>
+                            <span class="font_red fs_36">300〜400円（１割負担の場合・交通費込）</span>で<br class="hidden_960">
+                            受ける事が可能です。<br class="visible_960">（※障がい者1級、2級の方は<span class="font_red">無料</span>です）<br>
                             <br>
-                            保険が使えない自費リハビリと違い、公的医療サービスなので<br>
+                            <span class="fee_height"></span>
+                            保険が使えない自費リハビリと違い、<br class="visible_960">公的医療サービスなので<br class="hidden_960">
                             経済的な負担を少なくして受ける事が可能です。
                         </p>
                     </div>
@@ -600,7 +650,7 @@
             <!-- 流れ -->
             <div id="use" class="back_ground_color_light_pink">
                 <div class="back_ground_color_red font_white text_align_center py_5">
-                    <p class="fs_36">訪問リハビリ・マッサージ開始までの流れ</p>
+                    <p class="fs_36">訪問リハビリ・<br class="visible_960">マッサージ開始までの流れ</p>
                 </div>
                 <div class="max_width_920">
                     <div class="use_contents">
@@ -609,7 +659,7 @@
                         </div>
                         <div class="use_contents_right">
                             <p class="fs_26">お問い合わせ</p>
-                            <p class="fs_21">お電話かメールにてお気軽にお問い合わせください</p>
+                            <p class="fs_21">お電話かメールにてお気軽にお問い合わせください。</p>
                         </div>
                     </div>
                     <div class="use_under">
@@ -621,8 +671,8 @@
                             <img src="img/use_2.png" alt="">
                         </div>
                         <div class="use_contents_right">
-                            <p class="font_red fs_30_13">無料体験日の決定＆当日、無料体験の実施</p>
-                            <p class="fs_21">実際にどんなリハビリやマッサージをするのかを体験して頂きます</p>
+                            <p class="font_red fs_30_13">無料体験日の決定＆<br class="visible_960">当日、無料体験の実施</p>
+                            <p class="fs_21">実際にどんなリハビリやマッサージをするのかを体験して頂きます。</p>
                         </div>
                     </div>
                     <div class="use_under">
@@ -841,7 +891,13 @@
         <footer>
             <!-- グループ企業 -->
             <div id="group">
-                <div class="group_top">
+                <div class="group_top hidden_960">
+                    <div class="group_line"></div>
+                    <div class="group_title font_green">
+                        <div class="fs_26">グループ企業</div>
+                    </div>
+                </div>
+                <div class="group_top_960 visible_960">
                     <div class="group_line"></div>
                     <div class="group_title font_green">
                         <div class="fs_26">グループ企業</div>
@@ -849,7 +905,7 @@
                 </div>
                 <div class="max_width_920">
                     <div class="group_contents fs_22">
-                        <ul class="white_space_nowrap">
+                        <ul>
                             <li>
                                 <a href="">
                                     <div class="d_flex">
@@ -885,8 +941,29 @@
             </div>
 
             <!-- コピーライト -->
-            <div id="copyright" class="back_ground_color_green font_white text_align_center py_5">
+            <div id="copyright" class="back_ground_color_green font_white text_align_center py_5 hidden_960">
                 <p class="fs_14">Copyright©いばらき訪問リハビリセンターInc.All Rights Reserved.</p>
+            </div>
+
+            <!-- フィックスコントロール -->
+            <div id="fix_control" class="font_white visible_960">
+                <div id="fix_control_btn">
+                    <button class="back_ground_color_red" onclick="location.href='#contact'">
+                        <div>
+                            <span><img src="img/mail.png" alt=""></span>
+                            <span class="font_white noto_sans_jp_700">メールをする</span>
+                        </div>
+                    </button>
+                    <button class="back_ground_color_green" onclick="location.href='tel:0120-725-601'">
+                        <div>
+                            <span><img src="img/tel_2.png" alt=""></span>
+                            <span class="font_white noto_sans_jp_700">電話をかける</span>
+                        </div>
+                    </button>
+                </div>
+                <div id="fix_control_img">
+                    <img src="img/back_1.png" alt="">
+                </div>
             </div>
         </footer>
     </body>

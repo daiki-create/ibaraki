@@ -244,6 +244,7 @@ form#mail_form p#form_submit {
 	padding: 15px 0;
 	border-top: 1px solid #cccccc;
 	font-size: 16px;
+	text-align: center;
 }
 
 form#mail_form input[type="button"] {

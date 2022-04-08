@@ -1,18 +1,25 @@
 
 
 var matue = new google.maps.LatLng(36.487523, 140.401683);
-var mapOptions = {
-    zoom: 9,
-    center: matue,
-    styles: [
-        {
-            featureType: 'all',
-            elementType: 'geometry.fill	',
-            stylers: [
-            ]
-        }
-    ]
+
+if (window.matchMedia('(max-width: 767px)').matches) {
+    var mapOptions = {
+        zoom: 8,
+        center: matue,
+        streetViewControl: false,
+        mapTypeControl: false,
+        scaleControl: false
+    }
+} else if (window.matchMedia('(min-width:768px)').matches) {
+    var mapOptions = {
+        zoom: 9,
+        center: matue,
+        streetViewControl: false,
+        mapTypeControl: false,
+        scaleControl: false
+    }
 }
+
 var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
 ibaraki_layer = new google.maps.Data({map: map});
