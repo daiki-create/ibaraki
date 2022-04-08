@@ -8,7 +8,7 @@
         <link rel="preload" as="style" href="mail/css/jquery.datetimepicker.css" onload="this.rel='stylesheet'">
 
         <!-- my style -->
-        <link rel="stylesheet" href="css/style_220407.css">
+        <link rel="stylesheet" href="css/style_220409.css">
         <link rel="stylesheet" href="css/responsive_1150_960.css">
         <link rel="stylesheet" href="css/responsive_960_.css">
         <link rel="stylesheet" href="css/responsive_375.css">
@@ -1000,7 +1000,7 @@
 
     <!-- google map -->
     <script src="http://maps.google.com/maps/api/js?key=AIzaSyA3VHdrIolrGwDuvmiVKQjtkuZZHl8HNYM&language=ja"></script>   
-    <script src="js/map.js"></script>
+    <script src="js/map_220409.js"></script>
 
     <!-- preload -->
     <script>
