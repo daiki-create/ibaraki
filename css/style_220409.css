@@ -764,6 +764,9 @@ header{
     top: 45rem;
     right: calc(100% - (100% - 960px) / 2 - 960px - 15rem);
 }
+.reason_img_bottom{
+    display: none;
+}
 @media screen and (max-width:1500px) {
     .reason_parent > img{
         width: 12rem;
@@ -820,6 +823,15 @@ header{
     .reason_img_3,
     .reason_img_4{
         display: none;
+    }
+    .reason_img_bottom{
+        display: flex;
+        padding-bottom: 1rem;
+    }
+    .reason_img_bottom img{
+        width: 25%;
+        height: 25vw;
+        object-fit: cover;
     }
 }
 

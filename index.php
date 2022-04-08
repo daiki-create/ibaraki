@@ -9,9 +9,9 @@
 
         <!-- my style -->
         <link rel="stylesheet" href="css/style_220409.css">
-        <link rel="stylesheet" href="css/responsive_1150_960.css">
-        <link rel="stylesheet" href="css/responsive_960_.css">
-        <link rel="stylesheet" href="css/responsive_375.css">
+        <link rel="stylesheet" href="css/responsive_1150.css">
+        <link rel="stylesheet" href="css/responsive_960.css">
+        <link rel="stylesheet" href="css/responsive_all.css">
 
         <!-- google font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -587,6 +587,12 @@
                     </div>
                     <div class="max_width_920 text_align_right py_10 hidden_960">
                         <p class="fs_14">※1 令和1年5月～令和2年3月にリハビリを受けられた方が対象です</p>
+                    </div>
+                    <div class="reason_img_bottom">
+                        <img class="" src="img/circle_4.jpg" alt="">
+                        <img class="" src="img/circle_1.jpg" alt="">
+                        <img class="" src="img/circle_2.jpg" alt="">
+                        <img class="" src="img/circle_3.jpg" alt="">
                     </div>
                     <img class="reason_img_1" src="img/circle_1.jpg" alt="">
                     <img class="reason_img_2" src="img/circle_2.jpg" alt="">
