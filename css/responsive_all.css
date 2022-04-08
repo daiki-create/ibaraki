@@ -584,9 +584,6 @@
         width: 96%;
         height: 70vw;
     }
-    /* .voice_contents_left img{
-        width: 60%;
-    } */
 }
 .hidden_640{
     display: block;
@@ -682,6 +679,12 @@
         margin-left: 50%;
         transform: translateX(-50%);
     }
+    #reason .font_white{
+        width: 330px;
+        text-align: left;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
 }
 @media screen and (max-width:500px) {
     .feature_contents_left{
@@ -703,5 +706,24 @@
     }
     .header_white_center img{
         width: 90%;
+    }
+}
+
+/* 三角タイトル */
+@media screen and (max-width:375px) {
+    #reason .back_ground_color_dark_green::before{
+        border-top: 50px solid #6a9041;
+    }
+    #reason .font_yellow{
+        margin-top: 1rem;
+    }
+    #reason .font_yellow span{
+        line-height: 1.6em;
+    }
+    #reason .font_white{
+        width: 255px;
+    }
+    #area .back_ground_color_dark_blue::before{
+        border-top: 30px solid #204c66;
     }
 }

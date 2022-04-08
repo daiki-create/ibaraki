@@ -838,7 +838,6 @@ header{
 /* エリア */
 #area .back_ground_color_dark_blue{
     position: relative;
-    height: 100px;
     z-index: 0;
 }
 #area .back_ground_color_dark_blue::before{
