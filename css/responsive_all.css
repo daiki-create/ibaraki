@@ -193,6 +193,9 @@
     }
 
     /* 声 */
+    #voice{
+        font-weight: 900;
+    }
     #voice .back_ground_color_green .fs_24{
         font-size: 1.8rem;
     }
@@ -281,27 +284,11 @@
         margin: 2rem 1rem;
     }
     .reason_title_960{
-        margin-bottom: 1rem;
+        margin-bottom: 0.7rem;
+        width: 12%;
     }
-    .reason_title_960 > div{
-        margin: 0;
-        padding:0.8rem 1.8rem;
-        background-color: #6a9041;
-        color: white;
-        width: 6rem;
-        line-height: 2.7rem;
-    }
-    .reason_title_960 > div > div{
-        margin: auto;
-        display: flex;
-        align-items: center;
-    }
-    .reason_title_960 span:nth-child(1){
-        font-size: 1.46669rem;
-    }
-    .reason_title_960 span:nth-child(2){
-        font-size: 2.7rem;
-        padding-left: 1rem;
+    .reason_title_960 img{
+        width: 100%;
     }
     #reason .back_ground_color_dark_green .font_white span:nth-child(1){
         font-size: 1.6rem;
@@ -688,6 +675,12 @@
         transform: translateX(-50%);
         white-space: nowrap;
     }
+    .reason_title_960 {
+        width: auto;
+    }
+    .reason_title_960 img{
+        width: auto;
+    }
 }
 @media screen and (max-width:500px) {
     .feature_contents_left{
@@ -710,6 +703,9 @@
     .header_white_center img{
         width: 90%;
     }
+    .reason_contents{
+        padding: 1.2rem;
+    }
 }
 
 /* 三角タイトル */
@@ -728,5 +724,11 @@
     }
     #area .back_ground_color_dark_blue::before{
         border-top: 30px solid #204c66;
+    }
+    .reason_title_960 {
+        width: 22%;
+    }
+    .reason_title_960 img{
+        width: 100%;
     }
 }

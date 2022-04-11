@@ -8,7 +8,7 @@
         <link rel="preload" as="style" href="mail/css/jquery.datetimepicker.css" onload="this.rel='stylesheet'">
 
         <!-- my style -->
-        <link rel="stylesheet" href="css/style_220409.css">
+        <link rel="stylesheet" href="css/style_220411.css">
         <link rel="stylesheet" href="css/responsive_1150.css">
         <link rel="stylesheet" href="css/responsive_960.css">
         <link rel="stylesheet" href="css/responsive_all.css">
@@ -78,7 +78,7 @@
                         <div class="text_align_right">
                             <p class="header_time fs_18">営業時間　9:00～19:00(年中無休)</p>
                         </div>
-                        <button class="back_ground_color_green py_2 m_plus_rounded_700" onclick="location.href='#contact'">
+                        <button class="back_ground_color_green py_2 noto" onclick="location.href='#contact'">
                             <p class="font_yellow text_align_center fs_18">WEBからのお問い合わせはこちら</p>
                         </button>
                         <div class="text_align_center fs_16">
@@ -112,7 +112,7 @@
                             </div>
                         </div>
                         <div class="max_width_1150 font_green back_ground_color_clear_white top_img_child p_10">
-                            <p class="fs_34_98">
+                            <p class="fs_34_98 noto_sans_jp_700">
                                 健康保険を使って1回300～400円程度<br class="visible_1150"><span class="fs_28_25">（1割負担の場合・交通費込み）</span>で<br>
                                 訪問リハビリを受けられるのをご存知ですか？<br class="hidden_1150">
                                 ※障がい者1級・2級の方は無料です
@@ -325,7 +325,7 @@
             </div>
 
             <!-- 声 -->
-            <div id="voice" class="back_ground_color_light_blue_3">
+            <div id="voice" class="back_ground_color_light_blue_3 noto_sans_jp_700">
                 <div class="back_ground_color_green text_align_center py_10">
                     <p class="font_white_2 fs_24"><span>＼＼</span><span class="hidden_960_inline">「もっとリハビリしたい」</span><span>「1人で外出できるようになった」／／</span></p>
                     <p class="font_white fs_31">いばらき訪問リハビリセンターの<br class="visible_960">リハビリやマッサージを受けられた</p>
@@ -513,7 +513,7 @@
                         </div>
                         <div class="reason_right">
                             <div class="reason_title_960 visible_960">
-                                <div><div><span>理由</span><span>1</span></div></div>
+                                <div><img src="img/reason_title_1.png" alt=""></div>
                             </div>
                             <p class="fs_26">
                                 <span class="marker_1">2万人以上のリハビリ実績</span>から得られた豊富な経験。<br>
@@ -531,7 +531,7 @@
                         </div>
                         <div class="reason_right">
                             <div class="reason_title_960 visible_960">
-                                <div><div><span>理由</span><span>2</span></div></div>
+                            <div><img src="img/reason_title_2.png" alt=""></div>
                             </div>
                             <p class="fs_26">
                                 保険が使えない自費のリハビリと異なり、<span class="marker_1">健康保険適用の公的な医療サービス</span>だから安心の低料金。<br>
@@ -545,7 +545,7 @@
                         </div>
                         <div class="reason_right">
                             <div class="reason_title_960 visible_960">
-                                <div><div><span>理由</span><span>3</span></div></div>
+                            <div><img src="img/reason_title_3.png" alt=""></div>
                             </div>
                             <p class="fs_26">
                                 <span class="marker_1">茨城県にお住まいの方への訪問リハビリ専門の事業所</span>なので、アフターフォローも万全。<br>
@@ -560,7 +560,7 @@
                         </div>
                         <div class="reason_right">
                             <div class="reason_title_960 visible_960">
-                                <div><div><span>理由</span><span>4</span></div></div>
+                                <div><img src="img/reason_title_4.png" alt=""></div>
                             </div>
                             <p class="fs_26">
                                 <span class="marker_1">介護保険を一切使わない</span>のでデイサービスなどを減らさずに、<br>
@@ -575,7 +575,7 @@
                         </div>
                         <div class="reason_right">
                             <div class="reason_title_960 visible_960">
-                                <div><div><span>理由</span><span>5</span></div></div>
+                            <div><img src="img/reason_title_5.png" alt=""></div>
                             </div>
                             <p class="fs_26">
                                 <span class="marker_1">リハビリスタッフ全員が国家資格保持者です。</span><br>
@@ -913,7 +913,7 @@
                     <div class="group_contents fs_22">
                         <ul>
                             <li>
-                                <a href="">
+                                <a href="https://gunma-rehabili.com/" target="_blank">
                                     <div class="d_flex">
                                         <div class="font_green">></div>
                                         <div class="group_name">ぐんま訪問リハビリセンター</div>
@@ -922,7 +922,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="https://saitama-rehabili.com/" target="_blank">
                                     <div class="d_flex">
                                         <div class="font_green">></div>
                                         <div class="group_name">さいたま訪問リハビリセンター</div>
@@ -933,7 +933,7 @@
                         </ul>
                         <ul>
                             <li>
-                                <a href="">
+                                <a href="https://kisarazu-rehabili.com/" target="_blank">
                                     <div class="d_flex">
                                         <div class="font_green">></div>
                                         <div class="group_name">ちば訪問リハビリセンター　</div>

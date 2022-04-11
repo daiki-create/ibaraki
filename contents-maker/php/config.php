@@ -5,10 +5,10 @@
 
 
 // (必須) 管理者ユーザー名
-$cm_admin_user = 'sagamihara_007';
+$cm_admin_user = 'ibaraki_0411';
 
 
 
 
 // (必須) 管理者ログインパスワード
-$cm_admin_pass = 'matsudo0174';
+$cm_admin_pass = 'iba0411raki';
