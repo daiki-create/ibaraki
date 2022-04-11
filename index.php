@@ -2,6 +2,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
 
         <!-- mail -->
         <link rel="preload" as="style" href="mail/css/mailform.css" onload="this.rel='stylesheet'">
