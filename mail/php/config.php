@@ -10,7 +10,14 @@ $rm_send_address[] = 'info@ibaraki-rehabili.com';
 
 
 //【必須】 サンクスページのURL -- index.htmlからの相対パス、またはhttp://からの絶対パス --
-$rm_thanks_page_url = 'https://ibaraki-rehabili.com/mail/thanks.html';
+if($_SERVER['HTTP_HOST']=="http://noland.sakura.ne.jp")
+{
+    $rm_thanks_page_url = 'http://noland.sakura.ne.jp/ibaraki/mail/thanks.html';
+}
+if($_SERVER['HTTP_HOST']=="ibaraki-rehabili.com")
+{
+    $rm_thanks_page_url = 'https://ibaraki-rehabili.com/mail/thanks.html';
+}
 
 
 
