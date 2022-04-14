@@ -977,6 +977,18 @@ header{
     margin-right: 10px;
 }
 
+/* プライバシーポリシー */
+#privacy_parent{
+    margin: 20px 1rem;
+}
+#privacy{
+	padding: 10px;
+	background-color: #fffff1;
+	height: 200px;
+	overflow: scroll;
+	border: 2px solid #888;
+}
+
 /* グループ */
 .group_top{
     margin: 2rem 0;
