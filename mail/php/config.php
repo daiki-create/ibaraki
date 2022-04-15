@@ -20,7 +20,7 @@ $rm_send_address[] = '6280ikiad@gmail.com';
 
 
 //【必須】 サンクスページのURL -- index.htmlからの相対パス、またはhttp://からの絶対パス --
-if($_SERVER['HTTP_HOST']=="http://noland.sakura.ne.jp")
+if($_SERVER['HTTP_HOST']=="noland.sakura.ne.jp")
 {
     $rm_thanks_page_url = 'http://noland.sakura.ne.jp/ibaraki/mail/thanks.html';
 }
