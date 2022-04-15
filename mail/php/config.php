@@ -5,7 +5,7 @@
 
 
 //【必須】 自分のメールアドレスの設定 -- 複数のメールアドレスに送信したい場合は、以下の行をコピーして増やしていけばOKです。行頭の//を消せば有効となります。いくつでも追加可能。 --
-if($_SERVER['HTTP_HOST']=="http://noland.sakura.ne.jp")
+if($_SERVER['HTTP_HOST']=="noland.sakura.ne.jp")
 {
     // $rm_send_address[] = 'info@ibaraki-rehabili.com';
 }
