@@ -336,7 +336,7 @@ class Mailform {
 		$set_body  = PHP_EOL;
 		$set_body .= '-----------------------------------------------------------------------------------'.PHP_EOL;
 		$set_body .= PHP_EOL;
-		$set_body .= '【送信時刻】'.PHP_EOL;
+		$set_body .= '【お問い合わせ日時】'.PHP_EOL;
 		$set_body .= $send_date;
 		
 		for ( $i = 1; $i < $this->order_count + 1; $i++ ) {

@@ -897,7 +897,7 @@
                 <div class="max_width_920 py_20">
                     <form action="mail/php/mailform.php" method="post" id="mail_form">
                         <dl>
-                            <dt>名前</dt>
+                            <dt>お名前</dt>
                             <dd class="required"><input type="text" id="name_1" name="name_1" placeholder="佐藤"　value="" /> <input type="text" id="name_2" name="name_2" placeholder="たろう"　value="" /></dd>
                             <dt>メールアドレス</dt>
                             <dd class="required"><input type="email" id="mail_address" name="mail_address" placeholder="info@xxx.jp"　value="" /></dd>
@@ -905,9 +905,9 @@
                             <dd><input type="email" id="mail_address_confirm" name="mail_address_confirm" placeholder="info@xxx.jp"　value="" /></dd>
                             <dt>郵便番号</dt>
                             <dd class="required"><input type="text" id="postal" name="postal" placeholder="ハイフン不要"　value="" onkeyup="AjaxZip3.zip2addr( this,'','address','address' );" />　<a href="http://www.post.japanpost.jp/zipcode/" target="_blank">郵便番号検索</a></dd>
-                            <dt>住所</dt>
+                            <dt>ご住所</dt>
                             <dd><input type="text" id="address" name="address" placeholder="茨城県つくば市"　value="" /></dd>
-                            <dt>電話番号</dt>
+                            <dt>お電話番号</dt>
                             <dd><input type="tel" id="phone" name="phone" placeholder="ハイフン不要"　value="" /></dd>
                             <dt>お問い合わせの内容</dt>
                             <dd class="required"><textarea id="contents" name="contents" placeholder="お困りになっている方の状態や症状を記載ください"　cols="40" rows="5"></textarea></dd>
