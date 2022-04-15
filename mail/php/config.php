@@ -7,16 +7,15 @@
 //【必須】 自分のメールアドレスの設定 -- 複数のメールアドレスに送信したい場合は、以下の行をコピーして増やしていけばOKです。行頭の//を消せば有効となります。いくつでも追加可能。 --
 if($_SERVER['HTTP_HOST']=="noland.sakura.ne.jp")
 {
-    // $rm_send_address[] = 'info@ibaraki-rehabili.com';
+    $rm_send_address[] = 'info@ibaraki-rehabili.com';
 }
 elseif($_SERVER['HTTP_HOST']=="ibaraki-rehabili.com")
 {
-    // $rm_send_address[] = 'info@ibaraki-rehabili.com';
+    $rm_send_address[] = 'info@ibaraki-rehabili.com';
 }
 else{
     $rm_send_address[] = '6280ikiad@gmail.com';
 }
-$rm_send_address[] = '6280ikiad@gmail.com';
 
 
 //【必須】 サンクスページのURL -- index.htmlからの相対パス、またはhttp://からの絶対パス --
