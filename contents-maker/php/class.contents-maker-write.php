@@ -57,14 +57,15 @@ class Contents_Maker_Write Extends Contents_Maker {
 		$this->post_contents = str_replace( array( "\n", "\r", "\r\n" ), '', $this->post_contents );
 		
 		
-		if ( isset( $_POST['img'] ) && $_POST['img'] !== '' ) {
+		if ( isset( $_FILES['img'] ) && $_FILES['img'] !== '' ) {
 			$filepath = pathinfo($_FILES['img']['tmp_name']);
 			$img_name = $_FILES['img']['name'];
 			// $this->post_img = mb_convert_encoding($img_name, "cp932");
 			$this->post_img = "test";
 
 			//画像を保存
-			move_uploaded_file($_FILES['img']['tmp_name'], '../thumbnail/' . $this->post_img . $filepath['extension']);
+			// move_uploaded_file($_FILES['img']['tmp_name'], '../thumbnail/' . $this->post_img . $filepath['extension']);
+			move_uploaded_file($_FILES['img']['tmp_name'], '../thumbnail/' . $this->post_img . "png");
 		}
 
 		if ( file_exists( dirname( __FILE__ ) .'/../addon/attachment/post-check.php' ) ) {
