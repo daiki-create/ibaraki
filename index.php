@@ -272,7 +272,7 @@
                             </div>
                             <div class="text_align_right fs_15">
                                 <p>
-                                    ※１　 令和1年5月～令和2年3月にリハビリを受けられた方が対象です
+                                    ※１ 令和元年５月～令和2年3月にリハビリを受けられた方を対象にしたアンケートの結果です
                                 </p>
                             </div>
                         </div> 
@@ -530,7 +530,7 @@
                                 <span class="marker_1">93.3％の方が「立るのがラクになった」「歩けるようになった」</span>などの効果を実感しています（※１)
                             </p>
                             <div class="max_width_920 text_align_right py_10 visible_960">
-                                <p class="fs_14">※1 令和元年５月～令和 2 年 3 月にリハビリを受けられた方を対象にしたアンケートの結果です</p>
+                                <p class="fs_14">※1 令和元年５月～令和2年3月にリハビリを受けられた方を対象にしたアンケートの結果です</p>
                             </div>
                         </div>
                     </div>
@@ -594,7 +594,7 @@
                         </div>
                     </div>
                     <div class="max_width_920 text_align_right py_10 hidden_960">
-                        <p class="fs_14">※1 令和元年５月～令和 2 年 3 月にリハビリを受けられた方を対象にしたアンケートの結果です</p>
+                        <p class="fs_14">※1 令和元年５月～令和2年3月にリハビリを受けられた方を対象にしたアンケートの結果です</p>
                     </div>
                     <div class="reason_img_bottom">
                         <img class="" src="img/circle_4.jpg" alt="">
