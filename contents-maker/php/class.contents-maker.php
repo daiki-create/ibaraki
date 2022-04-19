@@ -202,8 +202,7 @@ EOM;
 		{$image_html}<dl>
 			<dt>{$span_delete}{$span_edit}{$row['date']}{$span_reserve}</dt>
 			<dd>{$row['contents']}</dd>
-			<dd><img src="..thumbnail/{$row['img']}"></dd>
-			<dd><img src="..thumbnail/test.png"></dd>
+			<dd><img src="../thumbnail/{$row['img']}"></dd>
 			<dd>テスト用表示：{$row['img']}</dd>
 		</dl>
 	</div>
