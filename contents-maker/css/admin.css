@@ -413,6 +413,12 @@ div#information dl dt {
 	overflow: hidden;
 }
 
+div#information dl dt img {
+	width: 100px;
+	height: 100px;
+	object-fit: contain;
+}
+
 div#information dl dt span {
 	display: inline-block;
 	float: right;
