@@ -41,7 +41,7 @@ if ( file_exists( dirname( __FILE__ ) .'/../addon/edit/edit.php' ) ) {
 
 
 
-if ( ( isset( $_POST['date'] ) && $_POST['date'] !== '' ) || ( isset( $_POST['contents'] ) && $_POST['contents'] !== '' ) ) {
+if ( ( isset( $_POST['date'] ) && $_POST['date'] !== '' ) || ( isset( $_POST['contents'] ) && $_POST['contents'] !== '' ) || ( isset( $_POST['img'] ) && $_POST['img'] !== '' ) ) {
 	include( dirname( __FILE__ ) .'/class.contents-maker-write.php' );
 	$contents_maker_write = new Contents_Maker_Write();
 	

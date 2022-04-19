@@ -437,6 +437,16 @@ div#information dl dt span.delete:hover {
 	border: 1px solid #ac2925;
 }
 
+div#information dl dt span.edit {
+	background: #449d44;
+	border: 1px solid #449d44;
+}
+
+div#information dl dt span.edit:hover {
+	cursor: pointer;
+	background: #329432;
+	border: 1px solid #329432;
+}
 
 
 

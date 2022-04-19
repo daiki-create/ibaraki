@@ -12,6 +12,7 @@ class Contents_Maker_Write Extends Contents_Maker {
 	protected $post_time         = '';
 	protected $post_date         = '';
 	protected $post_contents     = '';
+	protected $post_img         = '';
 	protected $reserve_date      = '';
 	
 	
@@ -56,6 +57,14 @@ class Contents_Maker_Write Extends Contents_Maker {
 		$this->post_contents = str_replace( array( "\n", "\r", "\r\n" ), '', $this->post_contents );
 		
 		
+		if ( isset( $_POST['img'] ) && $_POST['img'] !== '' ) {
+			$img_name = $_FILES['img']['name'];
+			$this->post_img = mb_convert_encoding($img_name, "cp932");
+
+			//画像を保存
+			move_uploaded_file($_FILES['img']['tmp_name'], '/../thumbnail/' . $this->post_img);
+		}
+
 		if ( file_exists( dirname( __FILE__ ) .'/../addon/attachment/post-check.php' ) ) {
 			include( dirname( __FILE__ ) .'/../addon/attachment/post-check.php' );
 		}
@@ -95,7 +104,7 @@ class Contents_Maker_Write Extends Contents_Maker {
 	// public contents_write
 	public function contents_write() {
 		
-		$stmt = $this->pdo->prepare( "SELECT * FROM cm_post WHERE row = ( SELECT MAX( row ) FROM cm_post ) LIMIT 1" );
+		$stmt = $this->pdo->prepare( "SELECT * FROM cm_post2 WHERE row = ( SELECT MAX( row ) FROM cm_post2 ) LIMIT 1" );
 		$stmt->execute();
 		
 		$row     = $stmt->fetch();
@@ -107,10 +116,11 @@ class Contents_Maker_Write Extends Contents_Maker {
 		}
 		
 		
-		$stmt = $this->pdo->prepare( "INSERT INTO cm_post ( time, date, contents, small, reserve, row ) VALUES ( :time, :date, :contents, :small, :reserve, :row )" );
+		$stmt = $this->pdo->prepare( "INSERT INTO cm_post2 ( time, date, contents, img, small, reserve, row ) VALUES ( :time, :date, :contents, :img, :small, :reserve, :row )" );
 		$stmt->bindParam( ':time', $this->post_time );
 		$stmt->bindParam( ':date', $this->post_date );
 		$stmt->bindParam( ':contents', $this->post_contents );
+		$stmt->bindParam( ':img', $this->post_img );
 		$stmt->bindParam( ':small', $this->resize_path_small );
 		$stmt->bindParam( ':reserve', $this->reserve_date );
 		$stmt->bindParam( ':row', $new_row );
@@ -138,7 +148,7 @@ class Contents_Maker_Write Extends Contents_Maker {
 		}
 		
 		
-		$stmt = $this->pdo->prepare( "DELETE FROM cm_post WHERE ( id = :id )" );
+		$stmt = $this->pdo->prepare( "DELETE FROM cm_post2 WHERE ( id = :id )" );
 		$stmt->bindParam( ':id', $delete_number );
 		$stmt->execute();
 		
