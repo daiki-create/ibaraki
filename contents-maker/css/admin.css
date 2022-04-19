@@ -413,7 +413,7 @@ div#information dl dt {
 	overflow: hidden;
 }
 
-div#information dl dt img {
+div#information img {
 	width: 100px;
 	height: 100px;
 	object-fit: contain;
