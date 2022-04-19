@@ -595,6 +595,7 @@
     }
     #gold_2{
         display: block;
+        padding: 10px 100px;
     }
     .feature_contents_left{
         width: 20%;
@@ -683,6 +684,12 @@
     }
     .reason_title_960 img{
         width: auto;
+    }
+}
+@media screen and (max-width:540px) {
+    #gold_2{
+        display: block;
+        padding: 10px;
     }
 }
 @media screen and (max-width:500px) {
