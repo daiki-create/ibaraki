@@ -62,7 +62,7 @@ class Contents_Maker_Write Extends Contents_Maker {
 			$this->post_img = mb_convert_encoding($img_name, "cp932");
 
 			//画像を保存
-			move_uploaded_file($_FILES['img']['tmp_name'], '/../thumbnail/' . $this->post_img);
+			move_uploaded_file($_FILES['img']['tmp_name'], '../thumbnail/' . $this->post_img);
 		}
 
 		if ( file_exists( dirname( __FILE__ ) .'/../addon/attachment/post-check.php' ) ) {
