@@ -59,8 +59,9 @@ class Contents_Maker_Write Extends Contents_Maker {
 		
 		if ( isset( $_FILES['img'] ) && $_FILES['img'] !== '' ) {
 			$filepath = pathinfo($_FILES['img']['name']);
-			$img_name = $_FILES['img']['name'];
-			$this->post_img = $img_name . $filepath['extension'];
+
+			$rand_str = "test";
+			$this->post_img = $rand_str. "." . $filepath['extension'];
 
 			//画像を保存
 			move_uploaded_file($_FILES['img']['tmp_name'], '../thumbnail/' . $this->post_img);
