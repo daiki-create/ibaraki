@@ -593,6 +593,9 @@
     .visible_640{
         display: block;
     }
+    #gold_2{
+        display: block;
+    }
     .feature_contents_left{
         width: 20%;
     }
@@ -730,5 +733,11 @@
     }
     .reason_title_960 img{
         width: 100%;
+    }
+}
+
+@media screen and (max-width:325px) {
+    #reason .font_yellow span{
+        line-height: 1.4em;
     }
 }

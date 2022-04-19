@@ -522,6 +522,17 @@ header{
     margin: 20px 0 10px 20px;
 }
 
+/* 歩行訓練・・ */
+#gold_2{
+    display: none;
+    max-width: 630px;
+    margin: auto;
+    padding: 0 5px;
+}
+#gold_2 img{
+    width: 100%;
+}
+
 /* 特徴 */
 #feature{
     background-image: url(../img/back_mesh.png);

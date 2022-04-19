@@ -4,6 +4,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
 
+        <title>脳梗塞や脳出血の訪問リハビリなら ちば訪問リハビリセンター</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Keywords" content="千葉県,脳梗塞,訪問リハビリ" />
+        <meta name="Description" content="千葉県で脳梗塞や脳出血の後遺症に強い訪問リハビリ・訪問マッサージなら、ちば訪問リハビリセンター。95,6％の利用者様が改善を実感。健康保険適用の医療サービスだから1回400円程度で訪問リハビリが受けられます（障がい者1・2級の方は無料）。「自費のリハビリは保険が使えないから高額で受けられない」という方でも安心の料金体系。筋力トレーニング、可動域訓練、立位、歩行訓練のようなリハビリだけでなく、痛みやしびれ緩和のマッサージ、鍼灸にも対応。パーキンソン病、脊髄小脳変性症、筋萎縮性側索硬化症（ALS）脊柱管狭窄症などの疾患にも対応していますので、まずはお気軽にご相談ください。" />
+
         <!-- mail -->
         <link rel="preload" as="style" href="mail/css/mailform.css" onload="this.rel='stylesheet'">
         <link rel="preload" as="style" href="mail/css/jquery.datetimepicker.css" onload="this.rel='stylesheet'">
@@ -93,7 +98,7 @@
 
             <div id="top">
                 <div class="top_red back_ground_color_red font_yellow text_align_center py_2 m_plus_rounded_700">
-                    <p class="fs_30_13">脳梗塞や脳出血後遺症で御悩みの方の<br class="visible_960">99.3%が改善を実感<span class="fs_20_09">(※1)</span></p>
+                    <p class="fs_30_13">脳梗塞や脳出血後遺症でお悩みの方の<br class="visible_960">99.3%が改善を実感<span class="fs_20_09">(※1)</span></p>
                 </div>
 
                 <div>
@@ -127,7 +132,7 @@
                         <p class="fs_41_48">「立つのがラクになった」<br class="visible_960">「痛みが軽くなった」</p>
                     </div>
                     <div class="text_align_center font_white">
-                        <p class="fs_35_02">という声をたくさん頂いています</p>
+                        <p class="fs_35_02">というお声をたくさんいただいております。</p>
                     </div>
                     <div class="text_align_right font_white fs_14">
                         ※1　令和1年5月～令和2年3月にリハビリを受けられた方が対象です
@@ -168,7 +173,7 @@
             <!-- コロナ -->
             <div id="corona">
                 <div class="font_red text_align_center fs_28_48 py_5 m_plus_rounded_700">
-                    <p>新型コロナウィルス予防対策中</p>
+                    <p>新型コロナウイルス予防対策中</p>
                 </div>
                 <div class="max_width_920 text_align_center">
                     <img src="img/corona.png" alt="">
@@ -208,7 +213,7 @@
                 <div class="inquiry_2_bottom_parent">
                     <div class="inquiry_2_bottom_left m_plus_rounded_700">
                         <div class="inquiry_2_bottom_time fs_28_48 d_flex">
-                            <span class="fs_21">通話料無料</span>　9:00～19:00（年中無休）
+                            <span class="fs_21">通話料無料</span>　9:00～20:00（年中無休）
                         </div>
                         <div class="inquiry_2_tel back_ground_color_light_pink">
                             <div>
@@ -240,6 +245,11 @@
                 </div>
             </div>
 
+            <!-- 歩行訓練・・ -->
+            <div id="gold_2">
+                <img src="img/gold_2.png" alt="">
+            </div>
+
             <!-- 3つの特徴 -->
             <div id="feature">
                 <div class="back_ground_color_green font_white text_align_center py_5">
@@ -252,12 +262,12 @@
                             <img src="img/point_1.png" alt="">
                         </div>
                         <div class="feature_contents_right">
-                            <p class="font_green fs_28"><span class="marker_1">2万人以上のリハビリ実績。</span></p>
+                            <p class="font_green fs_28"><span class="marker_1">2万件以上のリハビリ実績。</span></p>
                             <div class="fs_23 d_flex">
                                 <div class="font_green">■</div>
                                 <div>
                                     「立つのがラクになった」など<span class="marker_1">93.3％の利用者様が改善を実感</span>（※１）。<br>
-                                    マッサージや鍼灸もおこないますので、「痛みやしびれが軽くなった」というお声も頂きます。
+                                    マッサージや鍼灸も行いますので、「痛みやしびれが軽くなった」というお声もいただいております。
                                 </div>
                             </div>
                             <div class="text_align_right fs_15">
@@ -274,8 +284,7 @@
                         </div>
                         <div class="feature_contents_right">
                             <p class="font_green fs_28">
-                                健康保険が適用される公的な医療サービスだから1回の<br class="hidden_960">
-                                リハビリが300〜400円<br class="visible_960">（１割負担の場合・交通費込）。
+                                健康保険が適用される公的な医療サービスだから1回のリハビリが300〜400円<br class="visible_960">（１割負担の場合・交通費込）。
                             </p>
                             <div class="fs_23 d_flex">
                                 <div class="font_green">■</div>
@@ -344,7 +353,7 @@
                             <p class="font_green fs_28 hidden_640">1人で立てるようになりました。</p>
                             <p class="text_align_right fs_23">辻田淳一様　72歳　脳梗塞後遺症</p>
                             <p class="font_green fs_22">リハビリ前</p>
-                            <p class="fs_22">老人ホームでは、リハビリができず運動機能が落ちていっていました。</p>
+                            <p class="fs_22">老人ホームでは、リハビリができず徐々に運動機能が落ちてしまいました。</p>
                             <p class="font_green fs_22">リハビリ後</p>
                             <p class="fs_22 white_space_nowrap">
                                 筋力トレーニングや立ち上がる練習を先生と一緒に頑張りました。<br>
@@ -365,11 +374,11 @@
                             <p class="font_green fs_28 hidden_640">社会復帰することができました。</p>
                             <p class="text_align_right fs_23">清水直樹様　56歳　脳出血後遺症</p>
                             <p class="font_green fs_22">リハビリ前</p>
-                            <p class="fs_22">障がい者2級で会社には戻れないと思っていました</p>
+                            <p class="fs_22">障がい者2級で会社には戻れないと思っていました。</p>
                             <p class="font_green fs_22">リハビリ後</p>
                             <p class="fs_22">
                                 週4回来てもらい、リハビリのペースメーカーになりました。<br>
-                                今ではリハビリを卒業して、自転車に乗れるようになり、社会復帰もできています
+                                今ではリハビリを卒業して、自転車に乗れるようになり、社会復帰もできています。
                             </p>
                         </div>
                     </div>
@@ -377,13 +386,13 @@
 
                     <div class="voice_contents back_ground_color_white mt_10">
                     <div class="visible_640">
-                            <p class="font_green fs_28">痛みやしびれが軽くなりました</p>
+                            <p class="font_green fs_28">痛みやしびれが軽くなりました。</p>
                         </div>
                         <div class="voice_contents_left">
                             <img src="img/voice3.png" alt="">
                         </div>
                         <div class="voice_contents_right">
-                            <p class="font_green fs_28 hidden_640">痛みやしびれが軽くなりました</p>
+                            <p class="font_green fs_28 hidden_640">痛みやしびれが軽くなりました。</p>
                             <p class="text_align_right fs_23">齋藤ひて様　84歳　脊柱管狭窄症、坐骨神経痛</p>
                             <p class="font_green fs_22">リハビリ前</p>
                             <p class="fs_22">脊柱管狭窄症と脳梗塞の後遺症で痛みやしびれがひどかったです。</p>
@@ -397,7 +406,7 @@
 
                     <div class="voice_contents back_ground_color_white mt_10">
                     <div class="visible_640">
-                            <p class="font_green fs_28">家族の負担が減りました</p>
+                            <p class="font_green fs_28">家族の負担が減りました。</p>
                         </div>
                         <div class="voice_contents_left">
                             <img src="img/voice4.png" alt="">
@@ -406,7 +415,7 @@
                             <p class="font_green fs_28 hidden_640">家族の負担が減りました</p>
                             <p class="text_align_right fs_23">上野隆二様　81歳　パーキンソン病、脳梗塞</p>
                             <p class="font_green fs_22">リハビリ前</p>
-                            <p class="fs_22">体が思うように動かず、家族に負担をかけていました</p>
+                            <p class="fs_22">体が思うように動かず、家族に負担をかけていました。</p>
                             <p class="font_green fs_22">リハビリ後</p>
                             <p class="fs_22">
                                 リハビリのおかげで車いすからの立ち上がりがすごくラクになり、1人でトイレにも行けるようになりました。家族も驚いています。
@@ -488,8 +497,7 @@
                 <div class="consultation_body max_width_920 font_dark_blue">
                     <p class="fs_32"><span class="marker_1">1人で悩まず、</span><br class="visible_960"><span class="marker_1">いばらき訪問リハビリセンターにご相談ください。</span></p>
                     <p class="fs_21">
-                        当センターには、病院の先生から「これ以上良くならない」「歩くことは難しいのではないか？」と<br>
-                        言われたケースでも、毎日リハビリを頑張る事によって社会復帰できたり杖をついて歩けるようになったケースがあります。<br>
+                        当センターには、病院の先生から「これ以上良くならない」「歩くことは難しいのではないか？」と言われたケースでも、毎日リハビリを頑張る事によって社会復帰できたり杖をついて歩けるようになったケースがあります。<br>
                         <br>
                         「病院を退院して、これから<br class="visible_960">どうしたらいいのかわからない」<br>
                         「今の自分の状態からでも本当に<br class="visible_960">良くなるのだろうか」<br>という方もお気軽にご相談ください。                     
@@ -517,12 +525,12 @@
                                 <div><img src="img/reason_title_1.png" alt=""></div>
                             </div>
                             <p class="fs_26">
-                                <span class="marker_1">2万人以上のリハビリ実績</span>から得られた豊富な経験。<br>
+                                <span class="marker_1">2万件以上のリハビリ実績</span>から得られた豊富な経験。<br>
                                 ご利用者様の状況に応じたリハビリをマンツーマンで行います。<br>
                                 <span class="marker_1">93.3％の方が「立るのがラクになった」「歩けるようになった」</span>などの効果を実感しています（※１)
                             </p>
                             <div class="max_width_920 text_align_right py_10 visible_960">
-                                <p class="fs_14">※1 令和1年5月～令和2年3月にリハビリを受けられた方が対象です</p>
+                                <p class="fs_14">※1 令和元年５月～令和 2 年 3 月にリハビリを受けられた方を対象にしたアンケートの結果です</p>
                             </div>
                         </div>
                     </div>
@@ -551,7 +559,7 @@
                             <p class="fs_26">
                                 <span class="marker_1">茨城県にお住まいの方への訪問リハビリ専門の事業所</span>なので、アフターフォローも万全。<br>
                                 「担当スタッフを変えてほしい」などの要望も可能です。<br>
-                                また、女性のリハビリスタッフもいるから<span class="marker_1">女性のお客様も安心</span>して受けて頂けます。
+                                また、女性のリハビリスタッフもおりますので<span class="marker_1">女性のお客様も安心</span>して受けて頂けます。
                             </p>
                         </div>
                     </div>
@@ -564,7 +572,7 @@
                                 <div><img src="img/reason_title_4.png" alt=""></div>
                             </div>
                             <p class="fs_26">
-                                <span class="marker_1">介護保険を一切使わない</span>のでデイサービスなどを減らさずに、<br>
+                                <span class="marker_1">介護保険を一切使わない</span>のでデイサービスなどを減らさずに、<br class="hidden_960">
                                 リハビリやマッサージを受ける事ができます。<br>
                                 もちろん、<span class="marker_1">介護保険の訪問リハビリとの併用も可能</span>です。
                             </p>
@@ -580,14 +588,13 @@
                             </div>
                             <p class="fs_26">
                                 <span class="marker_1">リハビリスタッフ全員が国家資格保持者です。</span><br>
-                                また当センターには機能訓練指導員のマッサージ師、鍼灸師、<br>
-                                理学療法士など様々な分野のプロフェッショナルを揃えているから、<br>
-                                「痛みを緩和したい」というご要望にも対応可能です。
+                                また当センターには機能訓練指導員のマッサージ師、鍼灸師、<br class="hidden_960">
+                                理学療法士など様々な分野のプロフェッショナルを揃えておりますので、「痛みを緩和したい」というご要望にも対応可能です。
                             </p>
                         </div>
                     </div>
                     <div class="max_width_920 text_align_right py_10 hidden_960">
-                        <p class="fs_14">※1 令和1年5月～令和2年3月にリハビリを受けられた方が対象です</p>
+                        <p class="fs_14">※1 令和元年５月～令和 2 年 3 月にリハビリを受けられた方を対象にしたアンケートの結果です</p>
                     </div>
                     <div class="reason_img_bottom">
                         <img class="" src="img/circle_4.jpg" alt="">
@@ -678,8 +685,8 @@
                             <img src="img/use_2.png" alt="">
                         </div>
                         <div class="use_contents_right">
-                            <p class="font_red fs_30_13">無料体験日の決定＆<br class="visible_960">当日、無料体験の実施</p>
-                            <p class="fs_21">実際にどんなリハビリやマッサージをするのかを体験して頂きます。</p>
+                            <p class="font_red fs_30_13">無料体験日のご連絡</p>
+                            <p class="fs_21">スケジュールの調整やお客様のご希望内容に対応できるかなどを確認のうえ、無料体験の日時をご連絡いたします。</p>
                         </div>
                     </div>
                     <div class="use_under">
@@ -689,6 +696,22 @@
                     <div class="use_contents">
                         <div class="use_contents_left">
                             <img src="img/use_3.png" alt="">
+                        </div>
+                        <div class="use_contents_right">
+                            <p class="fs_26">無料体験の実施</p>
+                            <p class="fs_21">
+                                実際にどのようなリハビリを行うのかを体験していただきます。<br>
+                                正式にリハビリを受けたい場合は、体験終了後に、健康保険を使ってのリハビリをする際に必要な書類(同意書)をお渡しいたします。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="use_under">
+                        <img src="img/under.png" alt="">
+                    </div>
+
+                    <div class="use_contents">
+                        <div class="use_contents_left">
+                            <img src="img/use_4.png" alt="">
                         </div>
                         <div class="use_contents_right">
                             <p class="fs_26">担当医より同意書の交付</p>
@@ -701,7 +724,7 @@
 
                     <div class="use_contents">
                         <div class="use_contents_left">
-                            <img src="img/use_4.png" alt="">
+                            <img src="img/use_5.png" alt="">
                         </div>
                         <div class="use_contents_right">
                             <p class="fs_26">訪問リハビリ・マッサージの開始</p>
@@ -790,7 +813,7 @@
                             <div>
                                 <p class="fs_26">
                                     介護保険のリハビリと違い、回数制限はありません。<br>
-早期に社会復帰をされたいようなケースでは週に6回受けている利用者様もおります。
+早期に社会復帰をされたいようなケースでは週に6回受けている利用者様もいらっしゃいます。
                                 </p>
                                 <p class="fs_14">
                                     ※地域によっては訪問回数が月に15回を超えると、保険者から指導が入る可能性がありますのでご相談ください
@@ -870,22 +893,22 @@
             <div id="privacy_parent">
             <section id="privacy" class="max_width_920">
                 <h2 class="txt_center">プライバシーポリシー</h2>
-                <p>いばらき訪問リハビリセンター（以下「弊社」といいます）が、運営する当サイトにおける個人情報のお取り扱い、ご利用規約について説明します。</p>
+                <p>いばらき訪問リハビリセンター（以下「弊社」といいます）が、運営する当サイトにおける個人情報の取扱い、利用規約についてご説明いたします。</p>
                 <h3 class="title-2">1. 個人情報の収集・利用について</h3>
-                <p>弊社では、ご利用者に個人情報のご提供をお願いする場合があります。</p>
+                <p>弊社では、お客様に個人情報をご提供いただく場合があります。</p>
                 （WEB予約、お問い合わせ、その他）
-                <p>これらは、ご利用者へのサービスの提供業務に必要な範囲内で適正・適法な手段によって取得し、サービスの提供と向上、その他の正当な目的のために利用します。また、事前にお伝えした目的の範囲内でのみ利用し、ご利用者に同意無くその範囲を超えて利用しません。</p>
+                <p>これらは、お客様へのサービス提供に必要な範囲内で適正・適法な方法によって取得し、サービスの提供、その他の正当な目的のために利用いたします。また、事前にお伝えした目的の範囲内でのみ利用し、お客様の同意を得ずに、他の目的で利用することはありません。</p>
                 <h3 class="title-2">2. 個人情報の管理について</h3>
-                <p>弊社は、あらかじめご了承をいただいた場合及び法の定めによる場合を除き、第三者にご利用者の情報を提供又は開示しません。</p>
-                <p>お預かりした個人情報を漏洩、紛失、改ざん等の事態から防ぐために、適切なセキュリティ対策を講じ厳重に管理します。</p>
-                <p>ご利用者の個人情報の取り扱いが適正に行われるように従業者の教育・監督を実施します。</p>
+                <p>弊社は、あらかじめご了承いただいた場合及び法令に基づき開示が認められる場合を除き、第三者に対し、お客様の個人情報を提供することはありません。</p>
+                <p>お客様の個人情報を漏洩、紛失、改ざん等の事態から防ぐため、適切なセキュリティ対策を講じ厳重に管理します</p>
+                <p>お客様の個人情報の取扱いが適正に行われるように従業者の教育・監督を実施します。</p>
                 <h3 class="title-2">3. 利用制限について</h3>
-                <p>当サイトに掲載される情報、弊社でお預かりした情報は、その正確性と最新性の確保に努めます。当サイトに掲載される全ての情報は、弊社及びその関連会社が著作権を保有し、各国の著作権法、各種条約及びその他の法律で保護されています。</p>
-                <p>個人の私的使用、その他著作権法によって認められる範囲を超えて、これらの情報を使用（複製、改変、配布）することは、事前に弊社から許可を得ない限り禁止します。また、第三者及び弊社に不利益や損害を与える行為、公序良俗に反する行為、その恐れがある行為、営利を目的とした行為などはこれを禁止します。</p>
+                <p>当サイトに掲載される情報は、正確性と最新性の確保に努めます。当サイトに掲載される全ての情報は、弊社及びその関連会社が著作権を保有し、各国の著作権法、各種条約及びその他の法律で保護されております。</p>
+                <p>個人の私的使用、その他著作権法によって認められる範囲を超えて、これらの情報を使用（複製、改変、配布）することは、事前に弊社から許可を得ない限り禁止いたします。また、第三者及び弊社に不利益や損害を与える行為、公序良俗に反する行為、その恐れがある行為、営利を目的とした行為などはこれを禁止いたします。</p>
                 <h3 class="title-2">4. コンテンツ・利用条件の変更について</h3>
                 <p>弊社は、予告なしにコンテンツの内容及び利用条件の変更、当サイトに掲載したサービスについての延期・中止・終了を行うことがございますので、予めご了承ください。</p>
                 <h3 class="title-2">5. 個人情報の開示・訂正・利用停止について</h3>
-                <p>ご利用者がご自身の情報の内容の開示、訂正、利用停止等を希望された場合はこれに応じます。 但し、請求が法令による要件を満たさない場合及び弊社の最終のご利用から相当期間を経過したご利用者の情報に関しましては対応できない場合があります。</p>
+                <p>お客様がご自身の情報の内容の開示、訂正、利用停止等を希望された場合は、これに応じます。 ただし、請求が法令による要件を満たさない場合及び弊社の最終のご利用日から相当期間を経過したお客様の情報に関しては、対応できない場合があります。</p>
             </section>
             </div>
 
