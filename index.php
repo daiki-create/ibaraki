@@ -698,7 +698,7 @@
                             <img src="img/use_3.png" alt="">
                         </div>
                         <div class="use_contents_right">
-                            <p class="fs_26">無料体験の実施</p>
+                            <p class="font_red fs_30_13">無料体験の実施</p>
                             <p class="fs_21">
                                 実際にどのようなリハビリを行うのかを体験していただきます。<br>
                                 正式にリハビリを受けたい場合は、体験終了後に、健康保険を使ってのリハビリをする際に必要な書類(同意書)をお渡しいたします。

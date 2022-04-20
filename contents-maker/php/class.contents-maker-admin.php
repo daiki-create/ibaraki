@@ -142,7 +142,7 @@ EOM;
 		echo <<<EOM
 
 
-<form action="{$this->admin_url}" method="post" id="contents-maker-form"{$enctype} enctype="multipart/form-data">
+<form action="{$this->admin_url}" method="post" id="contents-maker-form"{$enctype}>
 	<dl>
 		<dt>投稿種別<span>Post Type</span></dt>
 		<dd><span class="cancel">閉じる</span>現在は新規投稿モードです。</dd>{$input}
@@ -150,8 +150,6 @@ EOM;
 		<dd class="required"><input type="text" class="date" name="date" value="" readonly="readonly" /></dd>
 		<dt>新規追加する新着情報<span>Add to Contents</span></dt>
 		<dd class="required">{$span_link}<textarea class="contents" name="contents" cols="40" rows="5"></textarea></dd>{$reserve}
-		<dt>サムネイル画像<span>Thumbnail image</span></dt>
-		<dd class="required"><input type="file" class="img" name="img" value="" readonly="readonly" accept="image/*"/></dd>
 	</dl>
 	<p class="submit"><input type="button" id="write-button" value="新規投稿する" /><input type="hidden" name="token" value="{$this->token}" /></p>
 </form>

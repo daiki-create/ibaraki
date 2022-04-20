@@ -63,13 +63,12 @@ class Contents_Maker {
 			exit( 'データベース接続に失敗しました。'.$e->getMessage() );
 		}
 		
-		$sql = "CREATE TABLE IF NOT EXISTS `cm_post2`"
+		$sql = "CREATE TABLE IF NOT EXISTS `cm_post`"
 			."( "
 			."`id` INTEGER PRIMARY KEY AUTOINCREMENT, "
 			."`time` DATETIME, "
 			."`date` VARCHAR(255), "
 			."`contents` TEXT, "
-			."`img` VARCHAR(255), "
 			."`small` VARCHAR(255), "
 			."`reserve` VARCHAR(255), "
 			."`row` INT"
@@ -140,7 +139,7 @@ class Contents_Maker {
 	// public get_news
 	public function get_news( $login ) {
 		
-		$stmt = $this->pdo->prepare( "SELECT * FROM cm_post2 ORDER BY row DESC" );
+		$stmt = $this->pdo->prepare( "SELECT * FROM cm_post ORDER BY row DESC" );
 		$stmt->execute();
 		
 		
@@ -173,7 +172,6 @@ EOM;
 				}
 				
 			} else {
-				$span_edit = '<span class="edit" data-edit="'.$row['id'].'">編集する</span>';
 				$span_delete = '<span class="delete" data-delete="'.$row['id'].'">削除する</span>';
 				
 				if ( file_exists( dirname( __FILE__ ) .'/../addon/edit/span-edit.php' ) ) {
@@ -202,8 +200,6 @@ EOM;
 		{$image_html}<dl>
 			<dt>{$span_delete}{$span_edit}{$row['date']}{$span_reserve}</dt>
 			<dd>{$row['contents']}</dd>
-			<dd><img src="../thumbnail/{$row['img']}"></dd>
-			<dd>テスト用表示：{$row['img']}</dd>
 		</dl>
 	</div>
 EOM;
