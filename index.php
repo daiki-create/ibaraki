@@ -4,10 +4,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
 
-        <title>脳梗塞や脳出血の訪問リハビリなら ちば訪問リハビリセンター</title>
+        <title>脳梗塞や脳出血の訪問リハビリなら いばらき訪問リハビリセンター</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="Keywords" content="千葉県,脳梗塞,訪問リハビリ" />
-        <meta name="Description" content="千葉県で脳梗塞や脳出血の後遺症に強い訪問リハビリ・訪問マッサージなら、ちば訪問リハビリセンター。95,6％の利用者様が改善を実感。健康保険適用の医療サービスだから1回400円程度で訪問リハビリが受けられます（障がい者1・2級の方は無料）。「自費のリハビリは保険が使えないから高額で受けられない」という方でも安心の料金体系。筋力トレーニング、可動域訓練、立位、歩行訓練のようなリハビリだけでなく、痛みやしびれ緩和のマッサージ、鍼灸にも対応。パーキンソン病、脊髄小脳変性症、筋萎縮性側索硬化症（ALS）脊柱管狭窄症などの疾患にも対応していますので、まずはお気軽にご相談ください。" />
+        <meta name="Keywords" content="茨城県,脳梗塞,訪問リハビリ" />
+        <meta name="Description" content="茨城県で脳梗塞や脳出血の後遺症に強い訪問リハビリ・訪問マッサージなら、いばらき訪問リハビリセンター。95,6％の利用者様が改善を実感。健康保険適用の医療サービスだから1回400円程度で訪問リハビリが受けられます（障がい者1・2級の方は無料）。「自費のリハビリは保険が使えないから高額で受けられない」という方でも安心の料金体系。筋力トレーニング、可動域訓練、立位、歩行訓練のようなリハビリだけでなく、痛みやしびれ緩和のマッサージ、鍼灸にも対応。パーキンソン病、脊髄小脳変性症、筋萎縮性側索硬化症（ALS）脊柱管狭窄症などの疾患にも対応していますので、まずはお気軽にご相談ください。" />
 
         <!-- mail -->
         <link rel="preload" as="style" href="mail/css/mailform.css" onload="this.rel='stylesheet'">
@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="css/style_220411.css">
         <link rel="stylesheet" href="css/responsive_1150.css">
         <link rel="stylesheet" href="css/responsive_960.css">
-        <link rel="stylesheet" href="css/responsive_all.css">
+        <link rel="stylesheet" href="css/responsive_all_220421.css">
 
         <!-- google font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1052,7 +1052,7 @@
     </script>
 
     <!-- google map -->
-    <script src="http://maps.google.com/maps/api/js?key=AIzaSyA3VHdrIolrGwDuvmiVKQjtkuZZHl8HNYM&language=ja"></script>   
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyA3VHdrIolrGwDuvmiVKQjtkuZZHl8HNYM&language=ja"></script>   
     <script src="js/map_220409.js"></script>
 
     <!-- preload -->
