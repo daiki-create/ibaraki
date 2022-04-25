@@ -113,7 +113,7 @@
     .top_img_child p{
         font-size: 2.1rem;
     }
-    .top_img_child span{
+    .top_img_child .fs_28_25{
         font-size: 1.8rem;
     }
     .top_red p{
@@ -142,6 +142,45 @@
     }
     #contents{
         background-color: white;
+    }
+
+    /* 申し込み */
+    .inquiry_2_top div{
+        width: 75vw;
+    }
+    .inquiry_2_top .fs_51_99{
+        font-size: 2rem;
+    }
+    .inquiry_2_bottom_left{
+        width: 100%;
+    }
+    .inquiry_2_bottom_child div{
+        margin-left: 1rem;
+    }
+    .inquiry_2_tel_sp{
+        width: 100%;
+        text-align: center;
+    }
+    .inquiry_2_tel_sp img{
+        width: 70%;
+    }
+    .inquiry_2_mail_sp{
+        width: 100%;
+        margin-bottom: 3rem;
+        text-align: center;
+        position: relative;
+    }
+    .inquiry_2_mail_sp img{
+        width: 70%;
+    }
+    .inquiry_2_mail_sp_wrapper{
+        position: absolute;
+        bottom: 2px;
+        width: 70%;
+        height: 13vw;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        border-radius: 15px;
     }
 
     /* 特徴 */
@@ -581,6 +620,15 @@
     display: none;
 }
 @media screen and (max-width:640px) {
+    .visible_640{
+        display: block;
+    }
+    .hidden_640_inline{
+        display: none;
+    }    
+    .visible_960_inline{
+        display: inline;
+    }
     .header_white_left img{
         width: 30%;
     }
@@ -594,7 +642,6 @@
         display: block;
     }
     #gold_2{
-        display: block;
         padding: 10px 100px;
     }
     .feature_contents_left{
@@ -690,6 +737,19 @@
     #gold_2{
         display: block;
         padding: 10px;
+    }
+    .inquiry_2_tel_sp img{
+        width: 100%;
+    }
+    .inquiry_2_mail_sp{
+        margin-bottom: 0;
+    }
+    .inquiry_2_mail_sp img{
+        width: 100%;
+    }
+    .inquiry_2_mail_sp_wrapper{
+        width: 100%;
+        height: 18vw;
     }
 }
 @media screen and (max-width:500px) {

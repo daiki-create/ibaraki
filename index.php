@@ -14,10 +14,10 @@
         <link rel="preload" as="style" href="mail/css/jquery.datetimepicker.css" onload="this.rel='stylesheet'">
 
         <!-- my style -->
-        <link rel="stylesheet" href="css/style_220411.css">
-        <link rel="stylesheet" href="css/responsive_1150.css">
-        <link rel="stylesheet" href="css/responsive_960.css">
-        <link rel="stylesheet" href="css/responsive_all_220421.css">
+        <link rel="stylesheet" href="css/style_220425.css">
+        <link rel="stylesheet" href="css/responsive_1150_220425.css">
+        <link rel="stylesheet" href="css/responsive_960_220425.css">
+        <link rel="stylesheet" href="css/responsive_all_22042501.css">
 
         <!-- google font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -119,8 +119,8 @@
                         </div>
                         <div class="max_width_1150 font_green back_ground_color_clear_white top_img_child p_10">
                             <p class="fs_34_98 noto_sans_jp_700">
-                                健康保険を使って1回300～400円程度<br class="visible_1150"><span class="fs_28_25">（1割負担の場合・交通費込み）</span>で<br>
-                                訪問リハビリを受けられるのをご存知ですか？<br class="hidden_1150">
+                                健康保険を使って1回300～400円程度<span class="visible_1150_inline">で</span><br class="visible_1150"><span class="fs_28_25">（1割負担の場合・交通費込み）</span><span class="hidden_1150_inline">で</span><br>
+                                訪問リハビリを受けられるのをご存じですか？<br class="hidden_1150">
                                 ※障がい者1級・2級の方は無料です
                             </p>
                         </div>
@@ -132,7 +132,9 @@
                         <p class="fs_41_48">「立つのがラクになった」<br class="visible_960">「痛みが軽くなった」</p>
                     </div>
                     <div class="text_align_center font_white">
-                        <p class="fs_35_02">というお声をたくさんいただいております。</p>
+                        <p class="fs_35_02">
+                            というお声を<span class="visible_960_inline">　　　　　　　　</span><br class="visible_960">たくさんいただいております。
+                        </p>
                     </div>
                     <div class="text_align_right font_white fs_14">
                         ※1　令和1年5月～令和2年3月にリハビリを受けられた方が対象です
@@ -181,7 +183,7 @@
             </div>
 
             <!-- 新着情報 -->
-            <div id="news_parent" class="back_ground_color_light_pink">
+            <div id="news_parent" class="back_ground_color_light_pink visible_960">
                 <div class="back_ground_color_white max_width_920 p_10">
                     <div id="contents">
                         <link rel="stylesheet" href="contents-maker/css/style.css">
@@ -191,26 +193,31 @@
                 </div>
             </div>
 
-            <div id="inquiry_2" class="max_width_920 hidden_960">
-                <div class="font_red py_5">
-                    <div class="d_flex center" style="width: 90%;">
-                        <span class="fs_44" style="margin-right: 1rem;">
+            <!-- 歩行訓練・・ -->
+            <div id="gold_2" class="visible_960">
+                <img src="img/tuika_sp.jpg" alt="">
+            </div>
+
+            <div id="inquiry_2" class="max_width_920">
+                <div class="inquiry_2_top font_red py_5 hidden_960">
+                    <div class="d_flex center">
+                        <span class="fs_44">
                         ＼ ＼
                         </span>
-                        <span class="fs_26_22" style="margin-right: 1rem;">
+                        <span class="fs_26_22">
                             リハビリ&<br>
                             マッサージ
                         </span>
                         <span class="fs_51_99">
                             無料体験のお申込み
                         </span>
-                        <span class="fs_44" style="margin-left: 1rem;">
+                        <span class="fs_44">
                             ／／
                         </span>
                     </div>
                 </div>
 
-                <div class="inquiry_2_bottom_parent">
+                <div class="inquiry_2_bottom_parent hidden_960">
                     <div class="inquiry_2_bottom_left m_plus_rounded_700">
                         <div class="inquiry_2_bottom_time fs_28_48 d_flex">
                             <span class="fs_21">通話料無料</span>　9:00～20:00（年中無休）
@@ -233,21 +240,31 @@
                     </div>
 
                     <button class="inquiry_2_bottom_child back_ground_color_red font_white p_5 d_flex text_align_center" onclick="location.href='#contact'">
-                        <div style="margin: auto;">
+                        <div>
                             <span>
                                 <img src="img/mail.png" alt="">
                             </span>
                             <span class="fs_30_37 noto_sans_jp_500">
-                                メールで「リハビリ無料体験」に申し込む
+                                メールで<span class="hidden_960_inline">「リハビリ無料体験」に</span>申し込む
                             </span>
-                        </div>
+                        </divyle=>
                     </button>
+                </div>
+
+                <div class="inquiry_2_tel_sp visible_960">
+                    <img src="img/tel_sp.jpg" alt="">
+                </div>
+                <div class="inquiry_2_mail_sp visible_960">
+                    <img src="img/mail_sp.jpg" alt="">
+                    <div class="inquiry_2_mail_sp_wrapper" onclick="location.href='#contact'">
+
+                    </div>
                 </div>
             </div>
 
-            <!-- 歩行訓練・・ -->
-            <div id="gold_2">
-                <img src="img/gold_2.png" alt="">
+             <!-- 歩行訓練・・ -->
+             <div id="gold_2" class="hidden_960">
+                <img class="hidden_960" src="img/tuika_pc.jpg" alt="">
             </div>
 
             <!-- 3つの特徴 -->
@@ -266,8 +283,8 @@
                             <div class="fs_23 d_flex">
                                 <div class="font_green">■</div>
                                 <div>
-                                    「立つのがラクになった」など<span class="marker_1">93.3％の利用者様が改善を実感</span>（※１）。<br>
-                                    マッサージや鍼灸も行いますので、「痛みやしびれが軽くなった」というお声もいただいております。
+                                    「立つのがラクになった」など<span class="marker_1">93.3％のご利用者様が改善を実感</span>（※１）。<br>
+                                    マッサージや鍼灸も行いますので、「痛みやしびれが軽くなった」というお声をいただいております。
                                 </div>
                             </div>
                             <div class="text_align_right fs_15">
@@ -284,7 +301,7 @@
                         </div>
                         <div class="feature_contents_right">
                             <p class="font_green fs_28">
-                                健康保険が適用される公的な医療サービスだから1回のリハビリが300〜400円<br class="visible_960">（１割負担の場合・交通費込）。
+                                健康保険が適用される公的な医療サービスだから1回のリハビリが<br class="visible_960">300〜400円<br class="visible_960">（１割負担の場合・交通費込）で受けられます。
                             </p>
                             <div class="fs_23 d_flex">
                                 <div class="font_green">■</div>
@@ -309,7 +326,7 @@
                             <div class="fs_23 d_flex">
                                 <div class="font_green">■</div>
                                 <div>
-                                    女性スタッフも多数在籍していますので「男性が来るのは不安・・・」というお客様も安心です。
+                                    女性スタッフも多数在籍しておりますので「男性が来るのは不安・・・」というお客様も安心です。
                                 </div>
                             </div>
                         </div>
@@ -412,7 +429,7 @@
                             <img src="img/voice4.png" alt="">
                         </div>
                         <div class="voice_contents_right">
-                            <p class="font_green fs_28 hidden_640">家族の負担が減りました</p>
+                            <p class="font_green fs_28 hidden_640">家族の負担が減りました。</p>
                             <p class="text_align_right fs_23">上野隆二様　81歳　パーキンソン病、脳梗塞</p>
                             <p class="font_green fs_22">リハビリ前</p>
                             <p class="fs_22">体が思うように動かず、家族に負担をかけていました。</p>
@@ -460,7 +477,7 @@
                                     <img src="img/check.png" alt="">
                                 </div>
                                 <div class="fs_28">
-                                    介護保険の枠が一杯で、週2回しかリハビリが受けられない
+                                    介護保険の枠がいっぱいで、週2回しかリハビリが受けられない
                                 </div>
                             </li>
 
@@ -509,9 +526,9 @@
             <div id="reason" class="back_ground_color_gray">
                 <div class="back_ground_color_dark_green text_align_center pt_10">
                     <div class="font_white">
-                        <span class="fs_28">リハビリ実績2万件以上。<br class="visible_960">93.3％の利用者様が改善を実感した</span>
+                        <span class="fs_28">リハビリ実績2万件以上<span class="hidden_960_inline">。</span><br class="visible_960">93.3％のご利用者様が改善を実感した</span>
                         <span class="fs_18">（※1）</span>
-                        <span class="fs_28">。</span>
+                        <span class="fs_28 hidden_960_inline">。</span>
                     </div>
                     <div class="font_yellow"><span class="fs_36">いばらき訪問リハビリセンターが<br class="visible_960"><span class="fs_36">選ばれる</span><span class="fs_47_23">5</span><span class="fs_36">つの</span><span class="fs_47_23">理由</span></div>
                 </div>
@@ -527,9 +544,9 @@
                             <p class="fs_26">
                                 <span class="marker_1">2万件以上のリハビリ実績</span>から得られた豊富な経験。<br>
                                 ご利用者様の状況に応じたリハビリをマンツーマンで行います。<br>
-                                <span class="marker_1">93.3％の方が「立るのがラクになった」「歩けるようになった」</span>などの効果を実感しています（※１)
+                                <span class="marker_1">93.3％の方が「立つのがラクになった」「歩けるようになった」</span>などの効果を実感しています（※１)。
                             </p>
-                            <div class="max_width_920 text_align_right py_10 visible_960">
+                            <div class="max_width_920 py_10 visible_960">
                                 <p class="fs_14">※1 令和元年５月～令和2年3月にリハビリを受けられた方を対象にしたアンケートの結果です</p>
                             </div>
                         </div>
@@ -544,7 +561,7 @@
                             </div>
                             <p class="fs_26">
                                 保険が使えない自費のリハビリと異なり、<span class="marker_1">健康保険適用の公的な医療サービス</span>だから安心の低料金。<br>
-                                1回のリハビリが<span class="font_red">300〜400円</span>（１割負担の場合・交通費込）で受けられます。（※障がい者1級、2級の方は<span class="font_red">無料</span>です）
+                                1回のリハビリが<span class="font_red">300〜400円</span>（１割負担の場合・交通費込）で受けられます（※障がい者1級、2級の方は<span class="font_red">無料</span>です）。
                             </p>
                         </div>
                     </div>
@@ -559,7 +576,7 @@
                             <p class="fs_26">
                                 <span class="marker_1">茨城県にお住まいの方への訪問リハビリ専門の事業所</span>なので、アフターフォローも万全。<br>
                                 「担当スタッフを変えてほしい」などの要望も可能です。<br>
-                                また、女性のリハビリスタッフもおりますので<span class="marker_1">女性のお客様も安心</span>して受けて頂けます。
+                                また、女性のリハビリスタッフもおりますので<span class="marker_1">女性のお客様にも安心</span>してご利用いただいております。
                             </p>
                         </div>
                     </div>
@@ -630,8 +647,7 @@
 
                     <div class="area_bottom">
                         <p class="fs_30_13">
-                            「リハビリを受けたい」<br class="visible_960">「マッサージを受けたい」<br class="visible_960">と思っている方の<br class="hidden_960">
-                            家や施設まで訪問して<br class="visible_960">リハビリを行います。
+                            「リハビリを受けたい」<br class="visible_960">「マッサージを受けたい」<br class="visible_960">と思っている方の<br class="hidden_960">家や施設まで訪問して<br class="visible_960">リハビリを行います。
                         </p>
                     </div>
                 </div>
@@ -645,7 +661,7 @@
                             当センターの訪問リハビリ・マッサージは健康保険が適用されますので、<br>
                             1回30分程度のリハビリやマッサージが<br>
                             <span class="font_red fs_36">300〜400円（１割負担の場合・交通費込）</span>で<br class="hidden_960">
-                            受ける事が可能です。<br class="visible_960">（※障がい者1級、2級の方は<span class="font_red">無料</span>です）<br>
+                            受ける事が可能です<br class="visible_960">（※障がい者1級、2級の方は<span class="font_red">無料</span>です）。<br>
                             <br>
                             <span class="fee_height"></span>
                             保険が使えない自費リハビリと違い、<br class="visible_960">公的医療サービスなので<br class="hidden_960">
@@ -812,11 +828,10 @@
                             </div>
                             <div>
                                 <p class="fs_26">
-                                    介護保険のリハビリと違い、回数制限はありません。<br>
-早期に社会復帰をされたいようなケースでは週に6回受けている利用者様もいらっしゃいます。
+                                    介護保険のリハビリと違い、回数制限はありません。<br>早期に社会復帰をされたいようなケースでは週に6回受けているご利用者様もいらっしゃいます。
                                 </p>
                                 <p class="fs_14">
-                                    ※地域によっては訪問回数が月に15回を超えると、保険者から指導が入る可能性がありますのでご相談ください
+                                    ※地域によっては訪問回数が月に15回を超えると、保険者から指導が入る場合がありますのでご相談ください
                                 </p>
                             </div>
                         </div>
@@ -858,7 +873,7 @@
                             </div>
                             <div>
                                 <p class="fs_26">
-                                    はい、可能です。脳梗塞や脳出血以外にもパーキンソン病、脊髄小脳変性症、脊柱管狭窄症、変形性関節症、筋萎縮性側索硬化症（ALS）の利用者様も多くいらっしゃいます。
+                                    はい、可能です。脳梗塞や脳出血以外にもパーキンソン病、脊髄小脳変性症、脊柱管狭窄症、変形性関節症、筋萎縮性側索硬化症（ALS）のご利用者様も多くいらっしゃいます。
                                 </p>
                             </div>
                         </div>
@@ -879,8 +894,7 @@
                             </div>
                             <div>
                                 <p class="fs_26">
-                                    ご案内しているスタッフは、全員が国家資格保持者です。<br>
-まずはお気軽に無料体験にてお試 しください。
+                                    ご案内しているスタッフは、全員が国家資格保持者です。<br>まずはお気軽に無料体験にてお試しください。
                                 </p>
                             </div>
                         </div>
@@ -924,14 +938,12 @@
                             <dd class="required"><input type="text" id="name_1" name="name_1" placeholder="佐藤"　value="" /> <input type="text" id="name_2" name="name_2" placeholder="たろう"　value="" /></dd>
                             <dt>メールアドレス</dt>
                             <dd class="required"><input type="email" id="mail_address" name="mail_address" placeholder="info@xxx.jp"　value="" /></dd>
-                            <dt>メールアドレス<br />(確認用)</dt>
-                            <dd><input type="email" id="mail_address_confirm" name="mail_address_confirm" placeholder="info@xxx.jp"　value="" /></dd>
                             <dt>郵便番号</dt>
                             <dd class="required"><input type="text" id="postal" name="postal" placeholder="ハイフン不要"　value="" onkeyup="AjaxZip3.zip2addr( this,'','address','address' );" />　<a href="http://www.post.japanpost.jp/zipcode/" target="_blank">郵便番号検索</a></dd>
                             <dt>ご住所</dt>
                             <dd><input type="text" id="address" name="address" placeholder="茨城県つくば市"　value="" /></dd>
                             <dt>お電話番号</dt>
-                            <dd><input type="tel" id="phone" name="phone" placeholder="ハイフン不要"　value="" /></dd>
+                            <dd class="required"><input type="tel" id="phone" name="phone" placeholder="ハイフン不要"　value="" /></dd>
                             <dt>お問い合わせの内容</dt>
                             <dd class="required"><textarea id="contents" name="contents" placeholder="お困りになっている方の状態や症状を記載ください"　cols="40" rows="5"></textarea></dd>
                         </dl>

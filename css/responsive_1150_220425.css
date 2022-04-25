@@ -5,13 +5,24 @@
 .hidden_1150{
     display: block;
 }
-
+.hidden_1150_inline{
+    display: inline;
+}
+.visible_1150_inline{
+    display: none;
+}
 @media screen and (max-width:1149px) {
     .visible_1150{
         display: block;
     }
     .hidden_1150{
         display: none;
+    }
+    .hidden_1150_inline{
+        display: none;
+    }    
+    .visible_1150_inline{
+        display: inline;
     }
     header{
         min-width: 0;

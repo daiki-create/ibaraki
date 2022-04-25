@@ -7,6 +7,9 @@
 .hidden_960_inline{
     display: inline;
 }
+.visible_960_inline{
+    display: none;
+}
 @media screen and (max-width:959px) {
     header{
         min-width: 0;
@@ -67,6 +70,9 @@
     }
     .hidden_960_inline{
         display: none;
+    }    
+    .visible_960_inline{
+        display: inline;
     }
     .header_green > div{
         max-width: 100%;

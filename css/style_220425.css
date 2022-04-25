@@ -463,6 +463,18 @@ header{
 }
 
 /* 申し込み */
+.inquiry_2_top div{
+    width: 850px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.inquiry_2_top span:nth-child(1),
+.inquiry_2_top span:nth-child(2){
+    margin-right: 1rem;
+}
+.inquiry_2_top span:nth-child(3){
+    margin-left: 1rem;
+}
 .inquiry_2_bottom_parent{
     position: relative;
     height: 375px;
@@ -516,7 +528,7 @@ header{
     width: 80%;
 }
 .inquiry_2_bottom_child div{
-   margin-left: 0.2rem;
+    margin: auto;
 }
 .inquiry_2_bottom_time{
     margin: 20px 0 10px 20px;
@@ -524,9 +536,9 @@ header{
 
 /* 歩行訓練・・ */
 #gold_2{
-    display: none;
-    max-width: 630px;
+    max-width: 640px;
     margin: auto;
+    padding: 1rem 0;
 }
 #gold_2 img{
     width: 100%;
